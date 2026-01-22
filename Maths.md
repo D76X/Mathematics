@@ -65,11 +65,9 @@
 
 # Quaternions
 
-# Quaternions
-
 [How to Use Quaternions  Positive Altitude](https://www.youtube.com/watch?v=bKd2lPjl92c) 
 
-# Tensors
+---
 
 # Tensors
 
@@ -86,7 +84,7 @@
 
 [What Does the Metric Tensor Do? | **Tensor Intuition**  \- **The Metric Tensor** \- The Cynical Philosopher](https://www.youtube.com/watch?v=cc0Xh1tKnZc) 
 
-# Tensor Product & Tensor Spaces
+---
 
 # Tensor Product & Tensor Spaces
 
@@ -126,21 +124,19 @@ Yes, tensor products are useful in many areas besides quantum mechanics, includi
 
 ---
 
-# Group Theory
-
 # Group Theory 
 
 [Is there any intuitive understanding of a normal subgroup?](https://math.stackexchange.com/questions/1014535/is-there-any-intuitive-understanding-of-normal-subgroup)  
 [Intuition on group homomorphisms](https://math.stackexchange.com/questions/242348/intuition-on-group-homomorphisms)  
 
-# Lie Groups
+---
 
 # Lie Groups
 
 [Why study Lie theory? | Lie groups, algebras, brackets \#1 \- Mathemaniac](https://www.youtube.com/watch?v=IlqVo3sJFLE&list=PLDcSwjT2BF_WDki-WvmJ__Q0nLIHuNPbP)   
 [How to rotate in higher dimensions? Complex dimensions? | Lie groups, algebras, brackets \#2](https://www.youtube.com/watch?v=erA0jb9dSm0&list=PLDcSwjT2BF_WDki-WvmJ__Q0nLIHuNPbP&index=3)
 
-# Statistics
+---
 
 # Statistics
 
@@ -148,33 +144,56 @@ Yes, tensor products are useful in many areas besides quantum mechanics, includi
 [The problem of **time** in statistics \- Very Normal](https://www.youtube.com/watch?v=I8kcHG9Z9Jo&t=17s)    
 [The most important skill in statistics \- Very Normal | **Monte Carlo Simulation**](https://www.youtube.com/watch?v=r7cn3WS5x9c&t=2s) 
 
+---
+
 # Discrete Maths
 
-Discret
-
 [P vs. NP \- The Biggest Unsolved Problem in Computer Science \- Up and Atom](https://youtu.be/EHp4FPyajKQ?si=I86s_BJSRQamrVE1) 
+
+---
 
 # Lebesgue Integral
 
 [Lebesgue's Integral \- Abide By Reason](https://www.youtube.com/watch?v=Fb2ei6lD-d8) 
 
+---
+
 # Hilbert Space
 
 [https://www.youtube.com/watch?v=FFPXm-tuOt8\&t=335s](https://www.youtube.com/watch?v=FFPXm-tuOt8&t=335s) 
+
+---
 
 # Bell's Theorem
 
 [Bell's Theorem Clearly Explained | Quantum Theory \- Abide By Reason](https://www.youtube.com/watch?v=ohT_U7M6Ed0) 
 
-# Differential Equations
+
+---
 
 # Differential Equations
 
 [MIT Learn Differential Equations MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oTpyxCMLKt_JmB0WtSZfG)    
 [Engineering Maths: Differential Equations and Dynamical Systems  by Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA)   
 
-# Lagrange & Hamiltonian
+---
 
 # Lagrange & Hamiltonian
 
-[Lagrangian vs Hamiltonian Mechanics  Abide By Reason](https://www.youtube.com/watch?v=tpp1Ahmij_Q) 
+[Lagrangian vs Hamiltonian Mechanics  Abide By Reason](https://www.youtube.com/watch?v=tpp1Ahmij_Q)  
+
+
+---
+
+# Liouville's Theorems
+
+## Liouville's Theorem in Classical Mechanics
+
+[Phase Space: the geometry of Hamiltonian mechanics Dr. Jorge S. Diaz](https://www.youtube.com/watch?v=IVQRfHAgLxk&t=784s)   
+[Phase space & Liouville's Theorem Sabetta Talks Math](https://www.youtube.com/watch?v=MFqA1nePCNg)    
+
+## Liouville's Theorem in Complex Analysis
+
+[Liouville's Theorem - Complex Analysis By a Physicist Nick Space Cowboy](https://www.youtube.com/watch?v=BWgu8Rw7Iew)  
+
+---
