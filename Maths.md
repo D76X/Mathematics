@@ -181,7 +181,7 @@ Yes, tensor products are useful in many areas besides quantum mechanics, includi
 # Lagrange & Hamiltonian
 
 [Lagrangian vs Hamiltonian Mechanics  Abide By Reason](https://www.youtube.com/watch?v=tpp1Ahmij_Q)  
-
+[The Lagrangian Sabetta Talks Math](https://www.youtube.com/watch?v=qHPk49S4POw&list=PLEbdLhb9LymQzpeuoFrNrG4Mycv6iWspc&index=10)  
 
 ---
 
