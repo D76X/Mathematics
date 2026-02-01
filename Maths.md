@@ -71,6 +71,8 @@
 
 # Tensors
 
+[What's The Difference Between Matrices And Tensors? Dr. Simulate](https://www.youtube.com/watch?v=1GwAEnegaRs)  
+
 [How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
 [Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
 [Tensorphobia and the Outer Product](https://www.jeremykun.com/2016/03/28/tensorphobia-outer-product/)  
