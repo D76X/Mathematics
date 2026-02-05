@@ -73,6 +73,7 @@
 
 [What's The Difference Between Matrices And Tensors? Dr. Simulate](https://www.youtube.com/watch?v=1GwAEnegaRs)  
 [A Common Misconception About Tensors Explained Dr. Simulate](https://www.youtube.com/watch?v=4ORgpdfnX5o&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=2)  
+[The First Ever Visualization Of Tensor Invariants Dr. Simulate](https://www.youtube.com/watch?v=P7yXAPFrXX4&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=3)  
 
 [How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
 [Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
