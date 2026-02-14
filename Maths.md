@@ -71,6 +71,22 @@
 
 # Tensors
 
+[The Core of Tensor Calculus DIBEOS](https://www.youtube.com/watch?v=FmzTvQMOAbM&t=695s)    
+
+# Important Topics in Tenasor Calculos
+
+1. Scalars, Vectors. Matrices and Tensors
+2. Index notation and Einstein summation
+3. Coordinate transformations
+4. Metric tensor
+5. Raising and lowering indices
+6. Covariant derivative
+7. Christoffel symbols
+8. Riemann curvature Tensor
+9. Ricci Tensor and Scalar Curvature
+
+---
+
 [What's The Difference Between Matrices And Tensors? Dr. Simulate](https://www.youtube.com/watch?v=1GwAEnegaRs)  
 [A Common Misconception About Tensors Explained Dr. Simulate](https://www.youtube.com/watch?v=4ORgpdfnX5o&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=2)  
 [The First Ever Visualization Of Tensor Invariants Dr. Simulate](https://www.youtube.com/watch?v=P7yXAPFrXX4&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=3)  
@@ -114,6 +130,24 @@
 [Why Tensor Impostors Fool So Many People  DIBEOS](https://www.youtube.com/watch?v=G42TMirDzlQ&t=1s)   
 [What Does the Metric Tensor Do? | Tensor Intuition  The Cynical Philosopher](https://www.youtube.com/watch?v=cc0Xh1tKnZc&t=56s)   
 [What is a tensor? Why is a tensor necessary?  The Penguin Lectures on Mechanical](https://www.youtube.com/watch?v=uze5Bkn5yFA) 
+
+---
+
+# An Introduction to Tensor Calculus MathTheBeautiful
+
+[MathTheBeautiful Playlists](https://www.youtube.com/@MathTheBeautiful/playlists)  
+
+[An Introduction to Tensor Calculus MathTheBeautiful Course](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)   
+
+
+[A Complete In-Depth Linear Algebra Course with Problems and Exercises MathTheBeautiful](https://www.youtube.com/watch?v=Fnfh8jNqBlg&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
+
+---
+
+# Tensor Calculus Course by @tensorcalculus822
+
+[Tensor Calculus Course by @tensorcalculus822](https://www.youtube.com/playlist?list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS)
+[Playlists by @tensorcalculus822](https://www.youtube.com/@tensorcalculus822/playlists)
 
 ---
 
