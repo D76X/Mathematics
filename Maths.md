@@ -149,6 +149,14 @@
 [Tensor Calculus Course by @tensorcalculus822](https://www.youtube.com/playlist?list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS)
 [Playlists by @tensorcalculus822](https://www.youtube.com/@tensorcalculus822/playlists)
 
+[01 - Why Tensor Calculus - Tensor Calculus](https://www.youtube.com/watch?v=pV-rUpqA6Lo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS) 
+
+In contrast to infinitesimal calculus, tensor calculus allows the 
+presentetion of phisical equation independent of the choice of a 
+particular coordinate system on the manifold.
+
+Tensor calculus (aka Tensor Analysis) is an extension of vector calculus.
+
 ---
 
 ## Quotient Spaces
