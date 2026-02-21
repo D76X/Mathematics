@@ -58,8 +58,10 @@
 [Why is the determinant like that?  broke math student](https://www.youtube.com/watch?v=Sv7VseMsOQc)   
 [Matrix trace isn't just summing the diagonal | Lie groups, algebras, brackets \#5  **Mathemaniac**](https://www.youtube.com/watch?v=B2PJh2K-jdU) 
 
+[Part 1 Linear Algebra: An In-Depth Introduction](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
 [Linear Algebra 14TBD: The Direct Algebraic Definition of the Determinant  \- **MathTheBeautiful**](https://www.youtube.com/watch?v=D8rghkxf4eU)   
 [Linear Algebra 17e: Easy Eigenvalues \- The Trace  MathTheBeautiful \- MathTheBeautiful](https://www.youtube.com/watch?v=w-0zhkbNb6g) 
+[Linear Algebra 2i: Polynomials Are Vectors, Too! MathTheBeautiful](https://www.youtube.com/watch?v=xhTciBubSfM&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv&index=12)    
 
 ---
 
@@ -69,138 +71,9 @@
 
 ---
 
-# Tensors
-
-[The Core of Tensor Calculus DIBEOS](https://www.youtube.com/watch?v=FmzTvQMOAbM&t=695s)    
-
-# Important Topics in Tenasor Calculos
-
-1. Scalars, Vectors. Matrices and Tensors
-2. Index notation and Einstein summation
-3. Coordinate transformations
-4. Metric tensor
-5. Raising and lowering indices
-6. Covariant derivative
-7. Christoffel symbols
-8. Riemann curvature Tensor
-9. Ricci Tensor and Scalar Curvature
-
----
-
-[What's The Difference Between Matrices And Tensors? Dr. Simulate](https://www.youtube.com/watch?v=1GwAEnegaRs)  
-[A Common Misconception About Tensors Explained Dr. Simulate](https://www.youtube.com/watch?v=4ORgpdfnX5o&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=2)  
-[The First Ever Visualization Of Tensor Invariants Dr. Simulate](https://www.youtube.com/watch?v=P7yXAPFrXX4&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=3)  
-[Don't Treat Tensors Like Matrices Dr. Simulate](https://www.youtube.com/watch?v=RxoZqQmHqbY)  
-
-[How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
-[Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
-[Tensorphobia and the Outer Product](https://www.jeremykun.com/2016/03/28/tensorphobia-outer-product/)  
-[The Tensor Product, Demystified](https://www.math3ma.com/blog/the-tensor-product-demystified)   
-[Tensor products of vectors \- IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/classical-information#tensor-products-of-vectors) 
-
-[Tensor Products  \- Playlist \- by Mu Prime Math](https://www.youtube.com/playlist?list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk)   
-[A Concrete Introduction to Tensor Products  Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74) 
-
-[What exactly are tensors? | Tensor algebra episode 5 \- All Angels](https://www.youtube.com/watch?v=9MuPfO3vrpw) 
-
-[What Does the Metric Tensor Do? | **Tensor Intuition**  \- **The Metric Tensor** \- The Cynical Philosopher](https://www.youtube.com/watch?v=cc0Xh1tKnZc) 
-
----
-
-# Tensor Product & Tensor Spaces
-
-[Tensor Products  by Mu Prime Math \- Playlist](https://www.youtube.com/playlist?list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk)   
-[01\. A Concrete Introduction to Tensor Products \- Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=2)   
-[02\. Complete Derivation: Universal Property of the TP  \- Mu Prime Math](https://www.youtube.com/watch?v=vZzZhdLC_YQ)  
-[03\. Tensor Product Basis With the Universal Property  Mu Prime Math](https://www.youtube.com/watch?v=5i8tp0rD2EA&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=3)   
-[04\. Proof: Uniqueness of the Tensor Product \- Mu Prime Math](https://www.youtube.com/watch?v=VJJK2BoIaD8&t=301s) 
-
-### Tensor Product & Tensor Spaces in Quantum Mechanics
-
-[Tensor product state spaces, Professor M does Science](https://www.youtube.com/watch?v=kz3206S2B6Q) 
-
-[Tensor products of vectors \- IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/classical-information#tensor-products-of-vectors)   
-[Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
-[The Tensor Product, Demystified](https://www.math3ma.com/blog/the-tensor-product-demystified)   
-[How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
-[Tensorphobia and the Outer Product](https://www.jeremykun.com/2016/03/28/tensorphobia-outer-product/)
-
-### Intuitive meaning and definition of a tensor
-
-[Why Tensor Impostors Fool So Many People  DIBEOS](https://www.youtube.com/watch?v=G42TMirDzlQ&t=1s)   
-[What Does the Metric Tensor Do? | Tensor Intuition  The Cynical Philosopher](https://www.youtube.com/watch?v=cc0Xh1tKnZc&t=56s)   
-[What is a tensor? Why is a tensor necessary?  The Penguin Lectures on Mechanical](https://www.youtube.com/watch?v=uze5Bkn5yFA) 
-
----
-
-# An Introduction to Tensor Calculus MathTheBeautiful
-
-[MathTheBeautiful Playlists](https://www.youtube.com/@MathTheBeautiful/playlists)  
-
-[An Introduction to Tensor Calculus MathTheBeautiful Course](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)   
-
-
-[A Complete In-Depth Linear Algebra Course with Problems and Exercises MathTheBeautiful](https://www.youtube.com/watch?v=Fnfh8jNqBlg&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
-
----
-
-# Tensor Calculus Course by @tensorcalculus822
-
-[Tensor Calculus Course by @tensorcalculus822](https://www.youtube.com/playlist?list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS)
-[Playlists by @tensorcalculus822](https://www.youtube.com/@tensorcalculus822/playlists)
-
-
-## [01 - Why Tensor Calculus - Tensor Calculus](https://www.youtube.com/watch?v=pV-rUpqA6Lo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS) 
-
-> Suggested Book:
-
-[Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld](https://www.amazon.it/Introduction-Analysis-Calculus-Surfaces-English-ebook/dp/B00FE92A28/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.m2MXznZBkCdjie08jSp1Pt7fXaWxvRIgRv0WQAWw39A.kG5-WC25uFNjM5LO3grogBzXSF5fYI59GlMP4F5eMdE&qid=1771400258&sr=8-1)  
-
-> Definitions: 
-
-Tensor calculus (aka Tensor Analysis) is an extension of vector calculus.
-In contrast to infinitesimal calculus, tensor calculus allows the 
-presentetion of phisical equation independent of the choice of a 
-particular coordinate system on the manifold.
-
-```
-The central idea of tensor calculus is to acknowledge the need for coordinate systems and, 
-at the same time, to avoid selecting a particular coordinate system for as long as possible 
-in the course of solving a problem.
-
-Tensor calculus provides algorithms for constructing analytical expressions that are valid 
-in all coordinate systems simultaneously.
-
-Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld
-```
-
-## Important Contributors to Tensor Calculus
-
-1. Bernahard Riemann (1826-1866)  
-2. Elwin Bruno Christoffel (1829-1900)  
-3. Gregorio Ricci-Cubastro (1853-1925)  
-4. Tullio Levi-Civita (1873-1941)  
-5. Marcel Grossmann (1878-1936)  
-6. Albert Einstein (1879-1955)  
-
-
----
-
-## [02 - Euclidian Space - Tensor Calculus](https://www.youtube.com/watch?v=2owBYBYc-dc&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=2) 
-
-
-
----
-
 ## Quotient Spaces
 
 [Quotient Space (+ Pics, Properties & Proofs) \- Forty-Moo\!](https://www.youtube.com/watch?v=VFRXfpVKAf0)
-
----
-
-### Are tensor products useful for anything other than quantum mechanics?
-
-Yes, tensor products are useful in many areas besides quantum mechanics, including various fields of mathematics such as abstract algebra, algebraic geometry, and differential geometry, as well as in physics for describing the relationships between physical quantities in classical mechanics, general relativity, and fluid dynamics, and in computer science and machine learning for handling large datasets and complex models.
 
 ---
 
@@ -275,5 +148,37 @@ Yes, tensor products are useful in many areas besides quantum mechanics, includi
 ## Liouville's Theorem in Complex Analysis
 
 [Liouville's Theorem - Complex Analysis By a Physicist Nick Space Cowboy](https://www.youtube.com/watch?v=BWgu8Rw7Iew)  
+
+---
+
+# Differential Topology
+
+## What is Differential Topology?
+
+Differential topology is the field of mathematics studying smooth (differentiable) manifolds and maps, 
+focusing on global properties that remain invariant under deformation, such as Euler characteristic, 
+orientation, and transversality. 
+
+**Unlike differential geometry**, which uses metrics to measure distances and curvature, differential 
+topology analyzes smoother, topological properties. 
+
+Key aspects of differential topology include:
+
+- Differentiable Manifolds: 
+These are topological spaces that locally look like Euclidean space and allow for the use of calculus.
+
+- Smooth Maps: 
+Maps between manifolds that have continuous derivatives of all orders, enabling the study of "smooth" deformations (diffeomorphisms).
+
+> Core Topics: 
+- Transversality (how manifolds intersect)
+- Morse theory
+- Cobordism theory 
+- The Poincare-Hopf theorem.
+
+> Key Differences: 
+
+While **differential geometry** deals with local, rigid, **metric-dependent properties** (like distance), 
+differential topology focuses on global, flexible, topological properties.  
 
 ---
