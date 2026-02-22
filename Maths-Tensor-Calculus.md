@@ -78,39 +78,14 @@
 [Tensor Calculus Course by @tensorcalculus822](https://www.youtube.com/playlist?list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS)
 [Playlists by @tensorcalculus822](https://www.youtube.com/@tensorcalculus822/playlists)
 
-
-## [01 - Why Tensor Calculus - Tensor Calculus](https://www.youtube.com/watch?v=pV-rUpqA6Lo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS) 
-
 > Suggested Book:
 
 [Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld](https://www.amazon.it/Introduction-Analysis-Calculus-Surfaces-English-ebook/dp/B00FE92A28/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.m2MXznZBkCdjie08jSp1Pt7fXaWxvRIgRv0WQAWw39A.kG5-WC25uFNjM5LO3grogBzXSF5fYI59GlMP4F5eMdE&qid=1771400258&sr=8-1)  
 
-> Definitions: 
 
-Tensor calculus (aka Tensor Analysis) is an extension of vector calculus.
-In contrast to infinitesimal calculus, tensor calculus allows the 
-presentetion of phisical equation independent of the choice of a 
-particular coordinate system on the manifold.
+---
 
-```
-The central idea of tensor calculus is to acknowledge the need for coordinate systems and, 
-at the same time, to avoid selecting a particular coordinate system for as long as possible 
-in the course of solving a problem.
-
-Tensor calculus provides algorithms for constructing analytical expressions that are valid 
-in all coordinate systems simultaneously.
-
-Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld
-```
-
-## Important Contributors to Tensor Calculus
-
-1. Bernahard Riemann (1826-1866)  
-2. Elwin Bruno Christoffel (1829-1900)  
-3. Gregorio Ricci-Cubastro (1853-1925)  
-4. Tullio Levi-Civita (1873-1941)  
-5. Marcel Grossmann (1878-1936)  
-6. Albert Einstein (1879-1955)  
+## [03 - Tensor Fields - Tensor Calculus](https://www.youtube.com/watch?v=2vcPH0vxIOA&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=3)  
 
 
 ---
@@ -146,7 +121,55 @@ That Euclidean space is linear meansit possesses the structure of a vector space
 allowing vectors (points) to be added together and multiplied by scalars (numbers) while obeying 
 specific algebraic rules. 
 
+Like vectors, tensors **are geometric objects**, in particular we say that vectors are tensors of **rank** 1,
+scalars are tensors of rank 0 and any tensor is a **geometric object of rank r <= N** whre N is the dimension 
+of the **geometric space (manifold)**.
+
+All tensors, therefore including vectors, can be **decomposed into their components with respect a particular**
+**choice of the coordinate system in the manifold**. The values of the components are dependant on the choice
+of the coordinate system but the geometric tensor is not, it is **(a geometric) invariant** with respect to this choice. 
+
+### Invariant Number of Components of any Tensor:
+
+Any vector in a N-dimensional manifold can be decomposed into its N components.
+The generalization of this observation to tensors is the following. 
+**Any tensor of rank r <= N in a N-dimensional manifold can be decomposed into its N^r components**.
+
 ---
+
+## [01 - Why Tensor Calculus - Tensor Calculus](https://www.youtube.com/watch?v=pV-rUpqA6Lo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS) 
+
+
+> Definitions: 
+
+Tensor calculus (aka Tensor Analysis) is an extension of vector calculus.
+In contrast to infinitesimal calculus, tensor calculus allows the 
+presentetion of phisical equation independent of the choice of a 
+particular coordinate system on the manifold.
+
+```
+The central idea of tensor calculus is to acknowledge the need for coordinate systems and, 
+at the same time, to avoid selecting a particular coordinate system for as long as possible 
+in the course of solving a problem.
+
+Tensor calculus provides algorithms for constructing analytical expressions that are valid 
+in all coordinate systems simultaneously.
+
+Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld
+```
+
+## Important Contributors to Tensor Calculus
+
+1. Bernahard Riemann (1826-1866)  
+2. Elwin Bruno Christoffel (1829-1900)  
+3. Gregorio Ricci-Cubastro (1853-1925)  
+4. Tullio Levi-Civita (1873-1941)  
+5. Marcel Grossmann (1878-1936)  
+6. Albert Einstein (1879-1955)  
+
+---
+
+# Tensors FAQ
 
 ### Are tensor products useful for anything other than quantum mechanics?
 
