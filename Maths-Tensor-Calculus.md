@@ -82,11 +82,17 @@
 
 [Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld](https://www.amazon.it/Introduction-Analysis-Calculus-Surfaces-English-ebook/dp/B00FE92A28/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.m2MXznZBkCdjie08jSp1Pt7fXaWxvRIgRv0WQAWw39A.kG5-WC25uFNjM5LO3grogBzXSF5fYI59GlMP4F5eMdE&qid=1771400258&sr=8-1)  
 
+---
+
+## [05 - Curvilinear Coordinates Tensor Calculus](https://www.youtube.com/watch?v=RY8uG2bkF-Y&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=5)  
+
+---
+
+## [04 - Affine Coordinates Tensor Calculus](https://www.youtube.com/watch?v=yNQycAQi0YM&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=4)   
 
 ---
 
 ## [03 - Tensor Fields - Tensor Calculus](https://www.youtube.com/watch?v=2vcPH0vxIOA&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=3)  
-
 
 ---
 
