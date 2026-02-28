@@ -84,6 +84,14 @@
 
 ---
 
+## [07 - Transformation Examples Tensor Calculus](https://www.youtube.com/watch?v=2k5LTNVTMMw)  
+
+---
+
+## [06 - Coordinate Transformations Tensor Calculus](https://www.youtube.com/watch?v=XtApAj4Srcw)  
+
+---
+
 ## [05 - Curvilinear Coordinates Tensor Calculus](https://www.youtube.com/watch?v=RY8uG2bkF-Y&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=5)  
 
 ---
