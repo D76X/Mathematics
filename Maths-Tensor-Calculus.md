@@ -84,6 +84,10 @@
 
 ---
 
+## [08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
+
+---
+
 ## [07 - Transformation Examples Tensor Calculus](https://www.youtube.com/watch?v=2k5LTNVTMMw)  
 
 ---
