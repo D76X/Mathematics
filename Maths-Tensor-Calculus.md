@@ -84,6 +84,14 @@
 
 ---
 
+## [10 - Covariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=7Vr4MWm8ysA)  
+
+---
+
+## [09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug)    
+
+---
+
 ## [08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
 
 ---
