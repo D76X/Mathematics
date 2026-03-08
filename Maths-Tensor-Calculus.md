@@ -84,6 +84,13 @@
 
 ---
 
+## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
+
+A covariant transformation is any quantity that transforms according to the Jacobian realtion
+with respect any choice of coordinates.
+
+---
+
 ## [10 - Covariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=7Vr4MWm8ysA)  
 
 ---
