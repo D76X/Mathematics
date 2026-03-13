@@ -86,8 +86,206 @@
 
 ## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
 
+### Covariant Transformations 
+
 A covariant transformation is any quantity that transforms according to the Jacobian realtion
 with respect any choice of coordinates.
+
+This is a very important concept to understand and this video illustrates it very well.
+
+The term **covariant transformation** refers to the notation property by which the transformation
+expression displays indexes that are in the same place, that is either as subfix or superscript, 
+on both sides of the expression (equation)!
+
+The following example is a covariant transformation:
+
+```
+A_sub_i = J_sub_i_sup_k * A_sub_k
+```
+
+The **i index is a free index and appears as subscript on both sides**, this is the reason
+this expression is of a covariant transformation. The index **k instead is a dummy index**, 
+beacuse is a **repeated index on the same side of the equation** and justa a compact summation 
+notation.
+
+The **J_sub_i_sup_k is called the Jacobian of the (covariant) transofrmation** and as 
+it was already said above any covariant transformation is by definition a transofrmation
+that can be expressed as: 
+
+```
+A_sub_i = J_sub_i_sup_k * A_sub_k
+```
+
+It is important at this point to clarify what the term `J_sub_i_sup_k` is.
+`J_sub_i_sup_k` is a collection of numbers which corresponds to the values of
+partial derivatives `DZ_sub_k/DZ_sub_i` at some point in the space.
+
+Conevrsely the term `J_sub_k_sup_i` is the **inverse Jacobian** and it is also
+a collection of numbers computed as the values of partial derivatives 
+`DZ_sub_i/DZ_sub_k` at a particular point of the space.
+
+The following expression is the inverse of the covariant tranformation presented
+earlier and the important fact to keep in mind is that **this also is a covariant tranformation**
+as it can be expressed in the same form with the free index, this time the free index k,
+appearing as **subscript on both sides of the equation**:
+
+```
+A_sub_k = J_sub_k_sup_i * A_sub_i
+```
+
+There is then a question left to answer: what is a **contravariant tranformation**?
+
+The **most natural covariant tranformation** is the following, that is obtained 
+by simply replacing the symbol A with the symbol V in the definition of a
+covariant tranformation given earlier. 
+
+```
+Z_sub_i = J_sub_i_sup_k * Z'_sub_k
+```
+
+This expression expresses the realtionship that exists in any space between the 
+vector basis Z and Z'. 
+
+It says that the partial derivatives `DZ'_sub_k/DZ_sub_i` are used to compute the term 
+called Jacobian `J_sub_i_sup_k` at any point in the space and through it we can always 
+determine the vectors Z from the vectors of the basis Z' at that point in the space.
+
+Notice that **the choice of the basis Z and Z' is not necessarily euclidean**, that is 
+this relation that we say is a covariant tranformation, holds between any choice of 
+basis in the spece!
+
+However, it turns out that **this is not the only case in which a quantity, in general a**
+**mathematical / geometrical object, transforms according to this relationship**. 
+This case is the specific case obtained when the choice of the mathematical objects are 
+two vector basis of the space.
+
+From the covariant tranformation between Z dn Z' that has been written down so far,
+it is not difficult to conclude that there is no reason to prefer Z over Z'. 
+The relation that expresses Z in term of Z', thereofore Z_sub_i in terms of Z'_sub_k
+should maintain the same form when we express Z' in terms of Z and thereofore 
+Z'_sub_i in terms of Z_sub_k; also this relation is covariant:
+
+
+```
+Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
+```
+
+In this equation J'_sub_i_sup_k takes the place of J_sub_i_sup_k because this time the
+numbers in J'_sub_i_sup_k are the partial derivatives `DZ_sub_k/DZ'_sub_i`. 
+However, the sub_i appears on both sides of the equation and that is what makes also
+this transformation, obviously, a covariant transormation. 
+
+### Contravariant Transformations 
+
+The **contravariant tranformation emerges naturally** when we consider another problem as 
+it foolows. Given two basis of vectors of a space Z and Z' and any vector in the space, 
+we want to be able to translate from the components of the vector with respect one of 
+these two basis to the components of the same vector with respect to the opther basis.
+
+We would be wrong if, lead by natural intuition, we assumed that the components of vectors
+with respect basis vectors also transform according to a covariant relationship!
+This is not the case, and furthermore the difference is very subtle and can only be appreciated
+when the maths of the transofmation of the vector components is carried out.
+
+Let's assume we choose a vector V in the space and there are two vector basis Z and Z'.
+The vector V, as a geometrical object is the same regardless whether we express it in therms
+of its components with respect the basis Z or the basis Z'.
+
+This fact allows us to write the following equations:
+
+```
+V = V_sup_i Z_sub_i
+V = V'_sup_k Z'_sub_k
+```
+
+from which we obtain the equation:
+
+```
+V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
+```
+
+this equation, together with the **covariant tranformation of the basis**:
+
+```
+V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
+Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
+```
+
+> Note:
+
+In this derivation we use the equation that expresses the basis Z' in terms of the basis Z.
+This is **always a covariant tranformation** as noted earlier.
+`Z'_sub_i = J'_sub_i_sup_k * Z_sub_k`
+
+We repeat here the same concept to reinforce it; as the choice of the labels given to the
+basis is arbitrary the same relationship, that is the same form of relationship, must
+exists when we express the the basis Z in terms of the basis Z'. 
+`Z_sub_i = J_sub_i_sup_k * Z'_sub_k`
+
+This **is also a covariant tranformation because the sub_i, the free index, appears as subscript**
+**on both sides of the equation!** 
+
+**What really changes between the two expression is the Jacobian.** 
+The Jacobian must be different, because ity is constructed by computation of different 
+partial derivatives as it was explained earlier.
+
+In this particular derivation we choose the first expression `Z'_sub_i = J'_sub_i_sup_k * Z_sub_k`
+over the second `Z_sub_i = J_sub_i_sup_k * Z'_sub_k` because the the first expression can be 
+substituted in the equation `V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k`. 
+
+The substitution results in the following equation:
+
+```
+V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
+Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
+
+=>
+
+V_sup_i Z_sub_i =  V'_sup_k (J'_sub_i_sup_k * Z_sub_k)
+```
+
+```
+V_sup_i Z_sub_i =  (V'_sup_k J'_sub_i_sup_k)  Z_sub_k
+
+=>
+
+V_sup_i Z_sub_i =  V'_sup_k J'_sub_i_sup_k
+
+```
+
+The eqution below shows the Jacobian as the second factor in the right term.
+This is important beacuse it is at the core of the difference between
+covariant and contravariant tranformations. 
+
+It is possible to commute the terms in the right term of teh equation by 
+**transposing the Jacobian** as shown:
+
+```
+
+# The Jacobian as the second factor in the right term
+V_sup_i Z_sub_i =  V'_sup_k J'_sub_i_sup_k
+
+
+# The Jacobian as the first factor in the right term.
+# The Jacobian must be transposed to swap the factors in the right hand term.
+V_sup_i Z_sub_i =  J'_sup_i_sub_k V'_sup_k
+
+```
+
+This last equation `V_sup_i Z_sub_i =  V'_sup_k J'_sub_i_sup_k` has the typical form
+of a **contravariant transormation***, and we should try to understabd why this is 
+the case. In order to see the subtle differece that exist between this latest equation
+abd the case if covariant tranformation let's simply put this expression side by side 
+with the most typical of the covariant tranformations, that is the basis transformation:
+
+```
+
+# out latest tranformation
+V_sup_i Z_sub_i =  J'_sup_i_sub_k V'_sup_k
+
+# the basis tranformation
+Z_sub_i = J_sub_i_sup_k * Z'_sub_k
+```
 
 ---
 
