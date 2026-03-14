@@ -274,6 +274,13 @@ V_sup_i = J'_sub_k_sup_i V'_sup_k
 
 ```
 
+By generalization:
+
+```
+A_sup_i = J'_sub_k_sup_i A'_sup_k 
+
+```
+
 This last equation can be used as the definition of a **contravariant transormation***, 
 in this tranformation the free index i appears once on the left side and once on the
 right side of the equation and as superscript.
