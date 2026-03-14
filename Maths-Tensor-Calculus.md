@@ -294,12 +294,18 @@ right side of the equation.
 The most tipical example of covariant tranformation is the tranformation that exists 
 between any pair of vector basis Z <=> Z'.
 
-
 3. In any contravariant tranformation the free index appears as a superscrip.
 The most tipical example of contrvariant tranformation is the tranformation that exists 
 between the vector components of any vector in a vector space with respect any pair of
 vector basis Z and Z'; the contravariant transformation: V_sup_i <=> V'_sup_i
 
+> Notes:
+
+The **invariant** vector V, can be represented as the linear combination of its components 
+with respect a basis, which transform contravariantly and the basis vectors which transform
+covariantly.
+
+V = V_sup_i Z_sub_i = V'_sup_i Z'_sub_i
 
 ---
 
