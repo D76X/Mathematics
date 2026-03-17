@@ -84,6 +84,55 @@
 
 ---
 
+## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
+
+Given the generalized covariant tranformation:
+
+```
+A_sub_i = J_sub_i_sup_k * A_sub_k
+```
+
+One particular transformation of this class is the tranformation between 
+any pair of arbitrarily chosen basis vectors Z and Z'.
+
+For the tranformation: Z' => Z
+
+It is meant that the basis vectors Z should be expressed in terms of their components
+with respect the basis vectors Z'
+
+```
+Z_sub_i = J_sub_i_sup_k * Z'_sub_k
+
+J_sub_i_sup_k = DZ_sub_k/DZ'_sub_i
+
+```
+
+For the transformation: Z => Z'
+
+It is meant that the basis vectors Z' should be expressed in terms of their components
+with respect the basis vectors Z
+
+
+```
+Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
+
+J'_sub_i_sup_k = DZ'_sub_k/DZ_sub_i
+
+```
+
+The notation used to express the Jacobian can be remmbered in the following
+way.
+
+- The Jacobian is primed, that is 
+    - J' when the Z' is the first term of the equation 
+    - J  when the Z  is the first term of the equation 
+
+- The partial derivatives are always 
+    - for J'= f(Z') are DZ'/DZ
+    - for J = f(Z)  are DZ/DZ'
+
+---
+
 ## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
 
 ### Covariant Transformations 
