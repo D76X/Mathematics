@@ -84,6 +84,10 @@
 
 ---
 
+## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
+
+---
+
 ## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
 
 Given the generalized covariant tranformation:
@@ -128,8 +132,8 @@ way.
     - J  when the Z  is the first term of the equation 
 
 - The partial derivatives are always 
-    - for J'= f(Z') are DZ'/DZ
-    - for J = f(Z)  are DZ/DZ'
+    - for J'= f'(Z) are DZ'/DZ
+    - for J = f(Z')  are DZ/DZ'
 
 ---
 
