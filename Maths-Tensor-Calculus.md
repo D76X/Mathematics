@@ -86,6 +86,41 @@
 
 ## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
 
+
+In this section a foundamental property of the Jacobian is derived.
+
+Given any vector space and two arbitrary basis Z and Z', 
+the following definitions and relationship have been established.
+
+The notation used used uses the index k instead of the index i' 
+for clarity, in order to avoid primed indexes that are not so 
+easy to type from a keyboard.
+
+CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
+
+```
+- The Jacobians: 
+    - J' when the Z' is the first term of the equation 
+    - J  when the Z  is the first term of the equation 
+
+- The partial derivatives are always 
+    - for J'= f'(Z) are DZ'/DZ  => J'_sub_k_sup_i = DZ'_sub_k/DZ_sub_i
+    - for J = f(Z')  are DZ/DZ' => J_sub_i_sup_k = DZ_sub_i/DZ'_sub_k
+
+- The mnemonics (mnemonic expressions)     
+    Z' = J' Z
+    Z = J Z'
+
+- Covariant transformations
+    A_sub_i = J_sub_i_sup_k * A_sub_k
+    A_sub_k = J'_sub_k_sup_i * A_sub_i
+
+- Contravariant transformations
+    A_sup_i = J'_sub_k_sup_i A'_sup_k
+    A'_sup_k = J_sub_i_sup_k A_sup_i 
+---
+
+
 ---
 
 ## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
@@ -135,6 +170,9 @@ way.
     - for J'= f'(Z) are DZ'/DZ
     - for J = f(Z')  are DZ/DZ'
 
+- The mnemonics (mnemonic expressions)     
+    Z' = J' Z
+    Z = J Z'
 ---
 
 ## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
