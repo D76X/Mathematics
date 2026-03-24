@@ -112,12 +112,32 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
     Z = J Z'
 
 - Covariant transformations
-    A_sub_i = J_sub_i_sup_k * A_sub_k
+    
+    A_sub_i = J_sub_i_sup_k * A_sub_k 
+    Calling the set of numbers J_sub_i_sup_k as J this is the same as any of: 
+    Z = J Z' 
+    A = J A'   
+    
     A_sub_k = J'_sub_k_sup_i * A_sub_i
+    Calling the set of numbers J_sub_k_sup_i as J' this is the same as any of:
+    Z' = J' Z 
+    A' = J' A   
 
 - Contravariant transformations
+
+    V_sup_i = J'_sub_k_sup_i V'_sup_k 
+    V = J' V'
     A_sup_i = J'_sub_k_sup_i A'_sup_k
+    A = J' A'
+
+    V'_sup_k = J_sub_i_sup_k V_sup_i 
+    V' = J V
     A'_sup_k = J_sub_i_sup_k A_sup_i 
+    A' = J A'
+```
+
+    
+
 ---
 
 
