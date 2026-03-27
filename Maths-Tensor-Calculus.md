@@ -1,5 +1,7 @@
 # Tensors
 
+[Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.html)
+
 [The Core of Tensor Calculus DIBEOS](https://www.youtube.com/watch?v=FmzTvQMOAbM&t=695s)    
 
 # Important Topics in Tenasor Calculos
@@ -86,6 +88,7 @@
 
 ## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
 
+[Tensor Notation: Kronecker Delta](https://www.continuummechanics.org/tensornotationbasic.html)    
 
 In this section a foundamental property of the Jacobian is derived.
 
@@ -104,8 +107,8 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
     - J  when the Z  is the first term of the equation 
 
 - The partial derivatives are always 
-    - for J'= f'(Z) are DZ'/DZ  => J'_sub_k_sup_i = DZ'_sub_k/DZ_sub_i
-    - for J = f(Z')  are DZ/DZ' => J_sub_i_sup_k = DZ_sub_i/DZ'_sub_k
+    - for J'= f'(Z) are DZ'/DZ  => J'_sub_k_sup_i = DZ'_sup_k/DZ_sup_i
+    - for J = f(Z')  are DZ/DZ' => J_sub_i_sup_k = DZ_sup_i/DZ'_sup_k
 
 - The mnemonics (mnemonic expressions)     
     Z' = J' Z
@@ -136,7 +139,77 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
     A' = J A'
 ```
 
-    
+The next step is to investigate the Jacobian more closely by using the mnemonics.    
+
+J'= f'(Z) are DZ'/DZ  => J'_sub_k_sup_i = DZ'_sup_k/DZ_sup_i
+J = f(Z') are DZ/DZ'  => J_sub_i_sup_k = DZ_sup_i/DZ'_sup_k
+Z' = J' Z
+Z = J Z'
+
+From these equation it is clear that the following hold true:
+
+Z' = J'J Z'
+Z  = J J' Z
+
+J'J = J J' = I
+
+Therefore J and J' are the inverse of each other.
+
+If it stopped at this observation, though we would miss important points about tensors and their algebra.
+That J and J' are inverse of each other can be easily grasped by thninking of them traditionally as 
+matrices, but how can be shift our understanding from matrices to tensors!
+
+Let's start considering the following:
+
+DZ_sup_i/DZ'_sup_k DZ'_sup_k/DZ_sup_j 
+
+What does this expression mean?
+
+Let's write it more succintly:
+
+(DZ^i/DZ^i')(DZ^i'/DZ^j)
+
+In this form:
+
+1. the _sup has been replaced by the short form ^
+2. the index i is a free index because it appears twice and in the same place, that is a superscript
+3. the k index has been replaced by its equivalent i' the index in the prime coordinate system
+4. the i' index is a dummy index because it is repeaded but not in the same place 
+4. there is a j index, that looks quite mysterious!
+
+It is not hard to see that this term is jus another way to write the partial derivative DZ^i/DZ^j
+and we will see why this is indeed the case later, but for now let's focus on this simple fact.
+
+(DZ^i/DZ^i')(DZ^i'/DZ^j) = DZ^i/DZ^j
+
+The very interesting fact about the partial derivatives DZ^i/DZ^j is that there are indeed 
+only two possible values for any choice of the indexes i and j:
+
+DZ^i/DZ^j = 0 if i <> j
+DZ^i/DZ^j = 1 if i == j
+
+We can consolidate this observation by restricting our reasoning to the familiar 
+3-D geometrical in for which this expression expands as shown in the following:
+
+- choose a particular value of i, for example i = 1
+- sum over the dummy index i'
+
+DZ^1/DZ^j = (DZ^1/DZ^i')(DZ^i'/DZ^j) = (DZ^1/DZ^1' * DZ^1'/DZ^j) + (DZ^1/DZ^2' * DZ^2'/DZ^j) + (DZ^1/DZ^3' * DZ^3'/DZ^j)  
+
+This is thereofre a set of three numbers, one for each choice of j, and the values 
+of these three numbers for each choice of j cab only be 
+
+DZ^1/DZ^j = 0 if 1 <> j
+DZ^1/DZ^1 = 1 
+
+We can use the symmetry of this reasoning to conclude that in this case there are 9 numbers that satisy the condition:
+
+DZ^i/DZ^j = 0 if i <> j
+DZ^i/DZ^j = 1 if i == j
+
+This looks very much like what happens in the producs J'J = J J' = I and it is the observation that 
+leads to the idea that the DZ^i/DZ^j are somehow linked to the component of the the objects J'J and JJ'.
+
 
 ---
 
