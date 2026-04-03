@@ -189,15 +189,15 @@ DZ^i/DZ^j = 0 if i <> j
 DZ^i/DZ^j = 1 if i == j
 
 We can consolidate this observation by restricting our reasoning to the familiar 
-3-D geometrical in for which this expression expands as shown in the following:
+3-D geometrical space where this expression expands as shown in the following:
 
 - choose a particular value of i, for example i = 1
 - sum over the dummy index i'
 
 DZ^1/DZ^j = (DZ^1/DZ^i')(DZ^i'/DZ^j) = (DZ^1/DZ^1' * DZ^1'/DZ^j) + (DZ^1/DZ^2' * DZ^2'/DZ^j) + (DZ^1/DZ^3' * DZ^3'/DZ^j)  
 
-This is thereofre a set of three numbers, one for each choice of j, and the values 
-of these three numbers for each choice of j cab only be 
+This is a set of three numbers, one for each choice of j, and the values 
+of these three numbers for each choice of j can only be either 1 or 0.
 
 DZ^1/DZ^j = 0 if 1 <> j
 DZ^1/DZ^1 = 1 
@@ -208,8 +208,37 @@ DZ^i/DZ^j = 0 if i <> j
 DZ^i/DZ^j = 1 if i == j
 
 This looks very much like what happens in the producs J'J = J J' = I and it is the observation that 
-leads to the idea that the DZ^i/DZ^j are somehow linked to the component of the the objects J'J and JJ'.
+leads to the idea that the terms DZ^i/DZ^j are somehow linked to the component of the the objects J'J and JJ'.
+In other words, by the reasoning that has been followed to this point we have reasons to believe
+that somehow the terms DZ^i/DZ^j are related to the of J'J and J J'; the open question is how.
 
+The following equation expresses the fact that the components of the basis vectors basis Z_supi 
+are a function of the basis vectors Z_sup_i' and these in turn are a function of Z_sup_i.
+This reasoning is convoluted but leads to the realtion between the J'J and J J' and 
+the derivatives DZ^i/DZ^j through simple partial differentiation. 
+
+Z_supi(Z) = Z_supi(Z_sup_i'(Z))
+
+Let j be the index with respect to we calculate the partial derivatives and let us also
+use a shorter notation:
+
+This is a shorter notation:
+
+DZ_supi(Z)/DZ_supj(Z) = DZ^i/DZ^j   
+
+The chaining rule of partial differentiation is applied on the right-hand side of the equation:
+
+DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j)
+
+In this equation the i' is a dummy index and therfore indicates a summation.
+From the definition of the Jacobian, we conclude:
+
+DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j) = J^i,i' J^i',j
+
+Where the meaning of the shorthand symbiols is the following 
+
+J^i,i' = J_sup_i_sub_i' = DZ^i/DZ^i'
+J^i',j = J_sup_i'_sub_j = DZ^i'/DZ^j
 
 ---
 
