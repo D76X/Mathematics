@@ -208,21 +208,21 @@ DZ^i/DZ^j = 0 if i <> j
 DZ^i/DZ^j = 1 if i == j
 
 This looks very much like what happens in the producs J'J = J J' = I and it is the observation that 
-leads to the idea that the terms DZ^i/DZ^j are somehow linked to the component of the the objects J'J and JJ'.
-In other words, by the reasoning that has been followed to this point we have reasons to believe
+leads to the idea that the terms DZ^i/DZ^j are somehow linked to the component of the the objects 
+J'J and JJ'.
+
+In other words, by the reasoning that has been followed to this point, we have reasons to believe
 that somehow the terms DZ^i/DZ^j are related to the of J'J and J J'; the open question is how.
 
 The following equation expresses the fact that the components of the basis vectors basis Z_supi 
 are a function of the basis vectors Z_sup_i' and these in turn are a function of Z_sup_i.
-This reasoning is convoluted but leads to the realtion between the J'J and J J' and 
+This reasoning is convoluted but leads to the realtion between the objects J'J and J J' and 
 the derivatives DZ^i/DZ^j through simple partial differentiation. 
 
 Z_supi(Z) = Z_supi(Z_sup_i'(Z))
 
-Let j be the index with respect to we calculate the partial derivatives and let us also
+Let j be the index with respect to the partial derivatives are calculated and let us also
 use a shorter notation:
-
-This is a shorter notation:
 
 DZ_supi(Z)/DZ_supj(Z) = DZ^i/DZ^j   
 
@@ -230,15 +230,18 @@ The chaining rule of partial differentiation is applied on the right-hand side o
 
 DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j)
 
-In this equation the i' is a dummy index and therfore indicates a summation.
+In this equation the i' is a dummy index, therefore it indicates a summation.
+
 From the definition of the Jacobian, we conclude:
 
 DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j) = J^i,i' J^i',j
 
-Where the meaning of the shorthand symbiols is the following 
+Where the meaning of the shorthand symbols is the following: 
 
 J^i,i' = J_sup_i_sub_i' = DZ^i/DZ^i'
 J^i',j = J_sup_i'_sub_j = DZ^i'/DZ^j
+
+
 
 ---
 
