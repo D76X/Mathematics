@@ -241,7 +241,21 @@ Where the meaning of the shorthand symbols is the following:
 J^i,i' = J_sup_i_sub_i' = DZ^i/DZ^i'
 J^i',j = J_sup_i'_sub_j = DZ^i'/DZ^j
 
+Finally, the definition of the Kronecker KDelta (Delta^i,j) is given:
 
+DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j) = J^i,i' J^i',j = 1 if i == j
+DZ^i/DZ^j = (DZ^i/DZ^i') (DZ^i'/DZ^j) = J^i,i' J^i',j = 0 if i != j
+KDelta^i,j = J^i,i' J^i',j => KDelta = JJ'
+
+By symmetry as there is no reason other than the different symbols 
+given to the choice of basis vectors Z and Z':
+
+KDelta' = J'J
+KDelta'^i',j' = J'^i',i J'^i,j' => KDelta' = J'J
+
+(DZ'^i'/DZ'^i)(DZ'^i/DZ'^j') = DZ'^i'/DZ'^j' 
+= 1 if i' == j'
+= 0 if i' != j'
 
 ---
 
