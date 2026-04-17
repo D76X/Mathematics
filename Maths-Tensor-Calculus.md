@@ -257,6 +257,30 @@ KDelta'^i',j' = J'^i',i J'^i,j' => KDelta' = J'J
 = 1 if i' == j'
 = 0 if i' != j'
 
+### Kronecker Delta Tensor Applications
+
+To understand how and when the KDelta is useful it's best to look at a few examples.
+We start from any covariant tranformation in a vestor space.
+
+A_sub_i' = J_sub_i_sup_i' * A_sub_i
+A_sub_i  = J_sub_i'_sup_i * A_sub_i'
+
+We have spelled out above the covariant tranformations:
+
+- from the unprimed vector basis to the primed vector basis
+- from the primed vector basis to the unprimed vector basis
+
+It is worthwhile to remember that a covariant tranformation is by definition 
+any tranformation that satisfies the above rules and that the most basic of 
+all covariant transormations is the tranformation of the vector basis in one
+sense or the other. It is obvious that, by virtue of symmetry and the arbitrary
+choice of designation of prime and unprimed basis vectors, there is no 
+difference in the way a covariant tranformation is defined on whether the 
+prime-to-unprimed or the unprimed-to-primed direction is considered.
+
+A covariant tranformation is the tranformation that changes a vector from 
+a space with a chosen basis to  
+
 ---
 
 

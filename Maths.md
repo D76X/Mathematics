@@ -182,3 +182,11 @@ While **differential geometry** deals with local, rigid, **metric-dependent prop
 differential topology focuses on global, flexible, topological properties.  
 
 ---
+
+# The Riemann Hypothesis
+
+[The Riemann Hypothesis Has Been Solved (April Fools) BriTheMathGuy](https://www.youtube.com/watch?v=NS9j5NFf-6s&t=3s)  
+
+[Physicists Just Linked This 160 Year-Old Math Problem To Black Holes Sabine Hossenfelder](https://www.youtube.com/watch?v=1YvOPoALVGY&t=123s)  
+
+---
