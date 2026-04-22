@@ -95,13 +95,14 @@ In this section a foundamental property of the Jacobian is derived.
 Given any vector space and two arbitrary basis Z and Z', 
 the following definitions and relationship have been established.
 
-The notation used used uses the index k instead of the index i' 
-for clarity, in order to avoid primed indexes that are not so 
-easy to type from a keyboard.
-
 CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
 
 ```
+
+- The mnemonics (mnemonic expressions) for canonical covariant tranformation    
+    Z' = J' Z
+    Z = J Z'
+
 - The Jacobians: 
     - J' when the Z' is the first term of the equation 
     - J  when the Z  is the first term of the equation 
@@ -109,10 +110,6 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
 - The partial derivatives are always 
     - for J'= f'(Z) are DZ'/DZ  => J'_sub_k_sup_i = DZ'_sup_k/DZ_sup_i
     - for J = f(Z')  are DZ/DZ' => J_sub_i_sup_k = DZ_sup_i/DZ'_sup_k
-
-- The mnemonics (mnemonic expressions)     
-    Z' = J' Z
-    Z = J Z'
 
 - Covariant transformations
     
@@ -270,16 +267,43 @@ We have spelled out above the covariant tranformations:
 - from the unprimed vector basis to the primed vector basis
 - from the primed vector basis to the unprimed vector basis
 
+## Recap of the meaning of covariant and contravariant transformations
+
+### Covariant tranformation
+
+Earlier we started with the definition of covariant tranformation from a pure 
+mathematical view point and stated that a covariant transfromation is any
+tranformation that can be written as the following:
+
+A_sub_i' = J_sub_i_sup_i' * A_sub_i
+A_sub_i  = J_sub_i'_sup_i * A_sub_i'
+
+- the free index appears a susbcript on both side of the equation
+- the dummy index appears a 
+
+
+
 It is worthwhile to remember that a covariant tranformation is by definition 
 any tranformation that satisfies the above rules and that the most basic of 
 all covariant transormations is the tranformation of the vector basis in one
-sense or the other. It is obvious that, by virtue of symmetry and the arbitrary
-choice of designation of prime and unprimed basis vectors, there is no 
-difference in the way a covariant tranformation is defined on whether the 
-prime-to-unprimed or the unprimed-to-primed direction is considered.
+sense or the other. 
 
-A covariant tranformation is the tranformation that changes a vector from 
-a space with a chosen basis to  
+It is obvious that, by virtue of symmetry and the arbitrary choice of designation 
+of prime and unprimed basis vectors, there is no difference in the way a covariant 
+tranformation is defined on whether the prime-to-unprimed or the unprimed-to-primed 
+direction is considered. 
+
+A covariant tranformation is the tranformation that changes a vector R from 
+a space with a chosen basis Z to a new vector of the same space when the 
+same tranformation that takes the vector basis Z to Z' is applied to R.
+
+The important insight to understand in the case of covariant tranformations
+is that it changes a vector into another vector, the same way it changes the
+vector basis.
+
+Finally, after gransping the concept of covariant tranformationat in a 
+geometrical fashion
+
 
 ---
 
@@ -342,31 +366,34 @@ way.
 
 ### Covariant Transformations 
 
-A covariant transformation is any quantity that transforms according to the Jacobian realtion
+A covariant transformation is any quantity that transforms according to the Jacobian relation
 with respect any choice of coordinates.
 
 This is a very important concept to understand and this video illustrates it very well.
 
 The term **covariant transformation** refers to the notation property by which the transformation
-expression displays indexes that are in the same place, that is either as subfix or superscript, 
-on both sides of the expression (equation)!
+expression displays indexes that are in the same place, that is either as subscript or superscript, 
+on both sides of the equation.
 
 The following example is a covariant transformation:
 
 ```
-A_sub_i = J_sub_i_sup_k * A_sub_k
+A_sub_i = J_sub_i_sup_i' * A_sub_i'
 ```
 
 The **i index is a free index and appears as subscript on both sides**, this is the reason
-this expression is of a covariant transformation. The index **k instead is a dummy index**, 
+this expression is of a covariant transformation. The index **i' instead is a dummy index**, 
 beacuse it is **repeated on the same side of the equation** as a compact summation notation.
-The **J_sub_i_sup_k is called the Jacobian of the (covariant) transofrmation** and any 
-covariant transformation. 
+The **J_sub_i_sup_i' is called the Jacobian of the covariant transofrmation**. 
 
-It is important at this point to clarify what the term called Jacobian `J_sub_i_sup_k` is.
-`J_sub_i_sup_k` is a collection of numbers which corresponds to the values of partial derivatives 
-`DZ'_sub_k/DZ_sub_i` at some point in the space. The Z' and Z symbols in this partial derivatives
-refer to two arbitrary vector basis in the space. 
+It is important at this point to clarify what the term called Jacobian `J_sub_i_sup_i'` is.
+
+`J_sub_i_sup_i'` is a collection of numbers which corresponds to the values of partial derivatives 
+`DZ_sub_i'/DZ_sub_i` at some point in the space. 
+
+The Z' and Z symbols in this partial derivatives refer to two arbitrary vector basis in the space
+and the term `DZ_sub_i'/DZ_sub_i` is the partial derivative of the basis vector Z_sub_i' with index i'
+from the basis vectors Z' with respect the Z_sub_1 of the basis vectors Z.
 
 Firstly, it is very important to note that this expression is universal in the sense that holds 
 true irrespective of the choice of Z and Z', therefore for any two vector basis, and not just 
@@ -377,25 +404,29 @@ one point to another for any arbitray choice of the basis Z and Z'. The special 
 Z and Z' are both euclidean, therefore orthonormal basis, results in a Jacobian with the same 
 values at each point in the space.
 
-Conversely, the term collecting the inverse of the partial derivates `DZ'_sub_k/DZ_sub_i`, that
-is the partial derivates `DZ_sub_k/DZ'_sub_i` is also a Jacobian noted as `J'_sub_k_sup_i`.
+Conversely, the term collecting the inverse of the partial derivates `DZ_sub_i'/DZ_sub_i`, that
+is the partial derivates `DZ_sub_i/DZ_sub_i'` is also a Jacobian noted as `J_sub_i'_sup_i`.
 This is the **inverse Jacobian** and it is also a collection of numbers computed at a particular 
 point of the space.
 
 The following expression is the inverse of the covariant tranformation presented earlier and 
-the important fact to keep in mind is that **this also is a covariant tranformation**
-as it can be expressed in the same form with the free index, this time the free index k,
-appearing as **subscript on both sides of the equation**:
+the important fact to keep in mind is that **this also is a covariant tranformation**!
+It can be expressed in the same form with the free index, this time the free index is the 
+primed index i', appearing as **subscript on both sides of the equation** the same it did in 
+the privious equation:
 
 ```
-A_sub_k = J'_sub_k_sup_i * A_sub_i
+A_sub_i' = J_sub_i'_sup_i * A_sub_i
 ```
 
-If we think about this for a minute, it should make sense. As the choice of the vecotr basis 
+If we think about this for a minute, it should make sense. As the choice of the vector basis 
 Z and Z' is arbitrary and also the label that we assigned to these vector basis is arbitray
 the mathematical relation between them should look the same however we decide to make these 
-arbitrary choices. Therefore is from Z to Z' we say that there is a covariant tranformation
-it is expected that the same form is maintained when we consider transofming from Z' to Z.
+arbitrary choices. 
+
+Therefore is from Z to Z' we say that there is a covariant tranformation it is expected that 
+the same form is maintained when we consider transofming from Z' to Z. 
+
 The only thing that should change between considering Z => Z' and Z' => Z are, of course, 
 the "numbers" that must be plugged in to express these relationship, however the form should
 be expected to remain the same.
@@ -405,6 +436,10 @@ be expected to remain the same.
 One simple way to quickly figure out whether a relationship is covariant or not is to 
 remember that in all covariant transformations the free index appear always as subscript
 once on the left term and once on the right term of the equation.
+
+
+
+---
 
 ### Contravariant Transformations 
 
@@ -416,25 +451,22 @@ concept of covariant tranformation is provided. If we denote with Z and Z' the a
 choice of vector basis we know that there is a covariant tranformation between them:
 
 ```
-A_sub_i = J_sub_i_sup_k * A_sub_k
+A_sub_i = J_sub_i_sup_i' * A_sub_i'
 ```
 
-For: Z' => Z
+In the particular case of the basis vector transformation: Z' => Z
 
 ```
-Z_sub_i = J_sub_i_sup_k * Z'_sub_k
-
-J_sub_i_sup_k = DZ_sub_k/DZ'_sub_i
-
+Z_sub_i = J_sub_i_sup_i' * Z'_sub_i'
+J_sub_i_sup_i' = DZ_sub_i'/DZ_sub_i
 ```
 
-For: Z => Z'
+In the particular case of the basis vector transformation: Z => Z'
 
+A_sub_i' = J_sub_i'_sup_i * A_sub_i
 ```
-Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
-
-J'_sub_i_sup_k = DZ'_sub_k/DZ_sub_i
-
+Z_sub_i' = J_sub_i'_sup_i * Z_sub_i
+J_sub_i'_sup_i = DZ_sub_i/DZ_sub_i'
 ```
 
 This **is not the only case in which a quantity, mathematical / geometrical object,** 
@@ -442,17 +474,21 @@ This **is not the only case in which a quantity, mathematical / geometrical obje
 the mathematical objects are two vector basis of the space, but there are other objects
 that transform covariantly, as it will be seen later.
 
-
 The need to identify a different type of transformation emerges naturally.
-The **most natural covariant tranformation** arises when we consider how 
-the components of vectors in a vector space change with respect to different 
-vector basis. Given two basis of vectors of a space Z and Z' and any vector 
-in the space, we want to be able to translate from the components of the vector 
-with respect one of these two basis to the components of the same vector with 
-respect to the opther basis.
 
-We would be wrong if, lead by natural intuition, we assumed that the components 
-of vectors with respect basis vectors also transform covariantly; they don't.
+###  Contravariant Transformations
+
+The **most natural contravariant tranformation** arises when we consider how the components 
+of vectors in a vector space change with respect to different vector basis. 
+
+Given two basis of vectors of a space Z and Z' and any vector in the space, we want to 
+to translate from the components of the vector with respect one of these two basis to 
+the components of the same vector with respect to the opther basis.
+
+We would be wrong if, led by natural intuition, we assumed that the components of vectors 
+with respect basis vectors also transform covariantly; they don't.
+
+***XXX
 
 Let's assume we choose a vector V in the space and there are two vector basis Z and Z'.
 The vector V, as a geometrical object is the same regardless whether we express it in
@@ -535,7 +571,7 @@ A_sup_i = J'_sub_k_sup_i A'_sup_k
 
 ```
 
-This last equation can be used as the definition of a **contravariant transormation***, 
+This last equation can be used as the definition of a **contravariant transormation**, 
 in this tranformation the free index i appears once on the left side and once on the
 right side of the equation and as superscript.
 
