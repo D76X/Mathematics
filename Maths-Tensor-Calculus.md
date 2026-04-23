@@ -73,6 +73,12 @@
 
 [A Complete In-Depth Linear Algebra Course with Problems and Exercises MathTheBeautiful](https://www.youtube.com/watch?v=Fnfh8jNqBlg&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
 
+[Tensors For Beginners (-1): Motivation eigenchris](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=2)   
+
+---
+
+[Tensors for Beginners eigenchris Course](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)   
+
 ---
 
 # Tensor Calculus Course by @tensorcalculus822
