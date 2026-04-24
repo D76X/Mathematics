@@ -73,11 +73,39 @@
 
 [A Complete In-Depth Linear Algebra Course with Problems and Exercises MathTheBeautiful](https://www.youtube.com/watch?v=Fnfh8jNqBlg&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
 
-[Tensors For Beginners (-1): Motivation eigenchris](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=2)   
+
 
 ---
 
 [Tensors for Beginners eigenchris Course](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)   
+
+[Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
+
+2. Tensors are objects invariant under a change of coordinates, and whose components changeaccording to sepcific rules under a change of coordinates.
+
+If we consider the example of a vector in the natural 3-d space that represents the extension of 
+a pointing object, such as a pencil, it is a fact that this vector can be represented by its 
+component once we choose a coordinate system, that is the corresponding base vectors.
+
+We can then make a different choice of coordinate system, thus a different set of base vectors
+and the component of the same vector change, therefore the compontn of this geometrical object
+are NOT invariantes while the vector itself is.
+
+1. Tensors are NOT just a collection of numbers
+
+A simplified mental model of a tensor one may think of them as a mere collection of numbers
+that can be arranged in some fashion, such as: 
+
+- scalars as rank-0 tensors
+- vectors as rank-1 tensors, represented as a 1-dimentional collection of numbers
+- matices as rank-2 tensors, represented as a 2-dimentional collection of numbers
+- matices as rank-3 tensors, represented as a 3-dimentional collection of numbers, a set of matrices
+- and so on for hiher ranks..
+
+
+--
+
+[Tensors For Beginners (-1): Motivation eigenchris](https://www.youtube.com/watch?v=8ptMTLzV4-I&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=2)   
 
 ---
 
