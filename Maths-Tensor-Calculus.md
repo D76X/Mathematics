@@ -4,7 +4,7 @@
 
 [The Core of Tensor Calculus DIBEOS](https://www.youtube.com/watch?v=FmzTvQMOAbM&t=695s)    
 
-# Important Topics in Tenasor Calculos
+# Important Topics in Tensor Calculus
 
 1. Scalars, Vectors. Matrices and Tensors
 2. Index notation and Einstein summation
