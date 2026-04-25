@@ -509,22 +509,6 @@ the mathematical objects are two vector basis of the space, but there are other 
 that transform covariantly, as it will be seen later.
 
 The need to identify a different type of transformation emerges naturally.
-<<<<<<< HEAD
-
-###  Contravariant Transformations
-
-The **most natural contravariant tranformation** arises when we consider how the components 
-of vectors in a vector space change with respect to different vector basis. 
-
-Given two basis of vectors of a space Z and Z' and any vector in the space, we want to 
-to translate from the components of the vector with respect one of these two basis to 
-the components of the same vector with respect to the opther basis.
-
-We would be wrong if, led by natural intuition, we assumed that the components of vectors 
-with respect basis vectors also transform covariantly; they don't.
-
-***XXX
-=======
 
 The **most natural contravariant tranformation** arises when we consider how 
 the components of vectors in a vector space change with respect to different 
@@ -535,7 +519,6 @@ respect to the opther basis.
 
 We would be wrong if, led by natural intuition, we assumed that the components 
 of vectors with respect basis vectors also transform covariantly; they don't.
->>>>>>> cf1a61823aa2cd56886a822888df227ede8d04a5
 
 Let's assume we choose a vector V in the space and there are two vector basis Z and Z'.
 The vector V, as a geometrical object is the same regardless whether we express it in
