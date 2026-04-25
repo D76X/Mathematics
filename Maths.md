@@ -189,4 +189,10 @@ differential topology focuses on global, flexible, topological properties.
 
 [Physicists Just Linked This 160 Year-Old Math Problem To Black Holes Sabine Hossenfelder](https://www.youtube.com/watch?v=1YvOPoALVGY&t=123s)  
 
+[The Pattern Nobody Can Prove (But Everyone Believes) Physics Explained](https://www.youtube.com/watch?v=pyEGbhwYOeo)  
+
+---
+
+[Prime Numbers Might Not Be Random After All New Scientist](https://www.youtube.com/watch?v=59I84mWLK_c&t=6s)  
+
 ---

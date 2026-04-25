@@ -70,18 +70,47 @@
 
 [An Introduction to Tensor Calculus MathTheBeautiful Course](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)   
 
-
 [A Complete In-Depth Linear Algebra Course with Problems and Exercises MathTheBeautiful](https://www.youtube.com/watch?v=Fnfh8jNqBlg&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
-
-
 
 ---
 
 [Tensors for Beginners eigenchris Course](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)   
 
+In the same way it was done for the definition of the object we named tensor 
+also in thecase of a vector three definitions of increasing rigor may be used.
+
+2. 
+
+1. THe definition of a vector by means of its components with respect a chosen basis in its space
+
+It is important to remember and understand the distinction between the concept of vector
+and that of its representetion, that is the vector components.
+
+- vectors are tensors of rank-1 and therefore invariant geometrical objects
+- any vector components with respect of a chosen basis is a set of numbers, that may be collected as a column; this is not invariant
+
+---
+
+[Tensors for Beginners 2: Vector definition eigenchris](https://www.youtube.com/watch?v=uPbBDToXjBw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=4)  
+
+---
+
+[Tensors for Beginners 1: Forward and Backward Transformations (REMAKE) eigenchris](https://www.youtube.com/watch?v=bpuE_XmWQ8Y&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=3)  
+
+---
+
 [Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
 
-2. Tensors are objects invariant under a change of coordinates, and whose components changeaccording to sepcific rules under a change of coordinates.
+3. A tensor is a collection of vectors and covectors combined together using the tensor product.
+
+This is the most abstract and concise definition of a tensor as it is based on other concepts
+which are not yet defined: vectors, covectors and the tensor product.
+
+[A Concrete Introduction to Tensor Products Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74&t=1s)  
+[Tensor product state spaces Professor M does Science](https://www.youtube.com/watch?v=kz3206S2B6Q&t=3s)  
+
+2. Tensors are objects invariant under a change of coordinates, and whose components 
+change according to sepcific rules under a change of coordinates.
 
 If we consider the example of a vector in the natural 3-d space that represents the extension of 
 a pointing object, such as a pencil, it is a fact that this vector can be represented by its 
