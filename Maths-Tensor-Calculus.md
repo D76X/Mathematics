@@ -79,9 +79,15 @@
 In the same way it was done for the definition of the object we named tensor 
 also in thecase of a vector three definitions of increasing rigor may be used.
 
-2. 
+3. A vector is a member of a vector space.
 
-1. THe definition of a vector by means of its components with respect a chosen basis in its space
+This is the most concise and accurate definition.
+The definition 2. of a vector as a geometrical arrow is only a particular case of this more
+general definition.
+
+2. A vector is a geometrical object in the sense of an arrow. 
+
+1. The definition of a vector by means of its components with respect a chosen basis in its space
 
 It is important to remember and understand the distinction between the concept of vector
 and that of its representetion, that is the vector components.
