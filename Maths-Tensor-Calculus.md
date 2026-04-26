@@ -76,10 +76,23 @@
 
 [Tensors for Beginners eigenchris Course](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)   
 
+---
+
+[Tensors for Beginners 3: Vector Transformation Rules eigenchris](https://www.youtube.com/watch?v=A1h_eucHFW4)    
+
+## The concept of contravarint transformation in the particular case of vectors
+
+
+
+[Tensors for Beginners 2: Vector definition eigenchris](https://www.youtube.com/watch?v=uPbBDToXjBw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=4)  
+
+
+## Definitions of Vector
+
 In the same way it was done for the definition of the object we named tensor 
 also in thecase of a vector three definitions of increasing rigor may be used.
 
-3. A vector is a member of a vector space.
+3. A vector is a member of a vector space: (V,S,+,*)
 
 This is the most concise and accurate definition.
 The definition 2. of a vector as a geometrical arrow is only a particular case of this more
@@ -97,15 +110,13 @@ and that of its representetion, that is the vector components.
 
 ---
 
-[Tensors for Beginners 2: Vector definition eigenchris](https://www.youtube.com/watch?v=uPbBDToXjBw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=4)  
-
----
-
 [Tensors for Beginners 1: Forward and Backward Transformations (REMAKE) eigenchris](https://www.youtube.com/watch?v=bpuE_XmWQ8Y&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=3)  
 
 ---
 
 [Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
+
+## Definitions of Tensor
 
 3. A tensor is a collection of vectors and covectors combined together using the tensor product.
 
