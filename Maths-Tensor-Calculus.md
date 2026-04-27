@@ -78,11 +78,48 @@
 
 ---
 
-[Tensors for Beginners 3: Vector Transformation Rules eigenchris](https://www.youtube.com/watch?v=A1h_eucHFW4)    
+[Tensors for Beginners 3: Vector Transformation Rules eigenchris](https://www.youtube.com/watch?v=A1h_eucHFW4)  
+
+## Summary
+
+In Part 2 and Part 3 some simple examples are used to:
+
+- frame some basic definitions abouts mathematical objects such as vectors and tensors
+- emphasize the distinction that exists between these objects and their representations (components)
+- derive basic equations that illustrate the relationship that exists between basis vectors
+- derive basic equations that illustrate the behaviours of the components of a vector
+- it introduces the definition of vector space and vector
+
+All of these topics are presented without reference to the notation used in tesnor calculus,
+isntead concepts are relationships are expressed entirely within the familiar framework of 
+matrices and example are limited to the familiar geometric space wither 2-D or 3-D.
+
+The following are the results established in the first 3 lessons expressed in the tensor notation:
+
+1. The forward basis tranformation tunrs the basis vectors Z into the basis vectors Z' 
+
+Z_sub_i' = F_sup_i_sub_i' Z_sub_i = J_sup_i_sub_i' Z_sub_i = J^i,i' Z_sub_i
+
+J_sup_i_sub_i' = DZ^i/DZ^i'
+
+2. The backward basis tranformation tunrs the basis vectors Z' into the basis vectors Z
+
+Z_sub_i = B_sup_i'_sub_i Z_sub_i' = J'_sup_i'_sub_i Z_sub_i' = J^i',i Z_sub_i'
+
+J^i',i = DZ^i'/DZ^i
+
+3. The Kronecker Delta and the observation that J and J' are the inverse of each other
+
+KDelta^i,j = J^i,i' J^i',j => KDelta = JJ' = FB
+
+(DZ'^i'/DZ'^i)(DZ'^i/DZ'^j') = DZ'^i'/DZ'^j' 
+= 1 if i' == j'
+= 0 if i' != j'
+
+4. The observation that vector components transforms with J' and not J, that is they transforms according to the backward tranformation and not the forward tranformation and are therefore said to be contravariant.
+
 
 ## The concept of contravarint transformation in the particular case of vectors
-
-
 
 [Tensors for Beginners 2: Vector definition eigenchris](https://www.youtube.com/watch?v=uPbBDToXjBw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=4)  
 
