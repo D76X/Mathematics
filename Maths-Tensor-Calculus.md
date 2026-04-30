@@ -265,7 +265,7 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
 
     V' = J' V = B V
     A' = J' A = B A
-    ????????    
+    ???
     
     A_sup_i = J'_sub_i_sup_k A_sup_i 
 
@@ -460,15 +460,17 @@ A_sub_i = J_sub_i_sup_k * A_sub_k
 One particular transformation of this class is the tranformation between 
 any pair of arbitrarily chosen basis vectors Z and Z'.
 
-For the tranformation: Z' => Z
+For (the backward) tranformation: Z' => Z 
 
-It is meant that the basis vectors Z should be expressed in terms of their components
-with respect the basis vectors Z'
+It is meant that the basis vectors Z should be expressed as linear  
+combination of the basis vectors Z'
 
+???
 ```
-Z_sub_i = J_sub_i_sup_k * Z'_sub_k
-
-J_sub_i_sup_k = DZ_sub_k/DZ'_sub_i
+Z_sub_i = J_sub_i_sup_k * Z'_sub_k 
+J_sub_i_sup_k = DZ_sub_k/DZ'_sub_i 
+Zi = J^k,i Zk
+Z = BZ' = JZ' 
 
 ```
 
@@ -582,8 +584,9 @@ once on the left term and once on the right term of the equation.
 
 ###  Example of covariant tranformation
 
-The simplest covariant tranformation is the transformation that expresses the basis vectors 
-as a combination of the basis vectors of another basis of the same vector space.
+The simplest covariant tranformation is the transformation that expresses the 
+basis vectors as a combination of the basis vectors of another basis of the 
+same vector space.
 
 The following expresses the vectors of the basis Z as linear combinations 
 of the vectors of the basis Z'.
@@ -612,9 +615,60 @@ This is the i-th vector of the base Z
 > Z'_sub_i' = Z'i' = Z_sub_i' = Zi'
 
 This is the i'-th vector of the basis Z'; notice that when the index is i' it
-becomes obvious that it refers to the primed basis Z', therefor the prime symbol
-can also be dropped from the symbol Z'. This may make the expressions a bit 
-simpler to read.
+becomes obvious that it refers to the primed basis Z', therefore the prime symbol
+can also be dropped from the symbol Z'. This makes the expressions a bit simpler 
+to read.
+
+> DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i'
+
+The same applies here where the index i' implies that the Z' basis is used and therefore 
+the prime on the DZ'_sub_i' can be dropped to obtain DZ_sub_i'.
+
+> J^i',i = J_sub_i_sup_i' = DZ'_sub_i'/DZ_sub_i
+> J'^i,i' = J^i,i' = J_sub_i'_sup_i = = DZ_sub_i/DZ_sub_i'
+
+The notation for the Jacobians can be a bit difficult to remember.
+Consider the following facts.
+
+In general the notation J^a,b expands as follows:
+J^a,b = J_sup_a_sub_b = J_sub_b_sup_a
+
+Therefore the important detail is that b is the subscript index, 
+thus the order of the indexes in J^a,b is key in this notation.
+At this point as the Jacobian is a shorthand for the partial 
+derivatives of basis vectors with respect the other basis vectors,
+it is beneficial to remember the b index is the index with respect 
+to the derivatives are computed.
+
+J^i',i => means that the derivatives are with respect the bassis Z
+J^i,i' => means that the derivatives are with respect the bassis Z'
+
+Notice that J'^i,i' = J^i,i' shows that also in this case the prime 
+index over J is dropped when the derivatives are with respect the
+vectors in the primed basis Z'.
+
+The canonical covariant tranformations ca be used to remind ourselves
+of the meaning of the Jacobians:
+
+Z_sub_i = J^i',i Z_sub_i' 
+Z_sub_i'= J^i,i' Z_sub_i 
+
+J^i',i is the Jacobian of the transfromation from Z' to Z => J^i',i  = J  = B 
+J^i,i' is the Jacobian of the transfromation from Z  to Z' => J^i,i' = J' = F
+
+Where
+
+B: the backward transformation
+F: the forwardward transformation
+
+Therefore the second index in the Jacobian tells which of the basis is 
+the ""starting basis" of the tranformation!
+
+Finally this notation results in the following simple expression of 
+the Kronecker Delta:
+
+KDelta^i,j = J^i,i' J^i',j   => KDelta = J'J
+KDelta^i',j' = J^i',i J^i,j' => KDelta = JJ'
 
 ???
 
