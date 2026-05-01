@@ -828,6 +828,8 @@ of a vector space can be summirezed in the following
 - D5: in the contravariant expression in tensor notation the free index appears as 
       a superscript once on each side of the equation.
 
+The components of vectors are not the only contravariant objects of a vector space.
+
 ---
 
 
