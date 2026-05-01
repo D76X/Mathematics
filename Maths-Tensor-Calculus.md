@@ -699,37 +699,45 @@ A' =  J'A = FA
 Ai' = J^i,i' Ai 
 J^i,i' = DZi/DZ'i' = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i' = DZi/DZi'
 
-???
+We conclude this part about covariant transformations with some statements
+that can help to remember and consolidate this concept.
 
----
+- D1: a covariant tranformation is always expressed in any of the compact forms 
+      - A = JA'
+      - A' = J'A
 
-### Contravariant Transformations 
+- D2: the compact forms correspond to the tensor notation below
+      - Ai = J^i',i Ai'
+      - Ai' = J^i,i' Ai
 
+- D3: it is also said that the object A is a covariant object because it 
+      transforms covariantly with any change of the basis vectors of the 
+      vector space. 
 
+- D4: A is covariant menas that A transforms the same way the basis vectors
+      do, that is according to the rules:
+      - Z = JZ'
+      - Z' = JZ
 
 This **is not the only case in which a quantity, mathematical / geometrical object,** 
 **transforms covariantly**. This case is the specific case obtained when the choice of 
 the mathematical objects are two vector basis of the space, but there are other objects
 that transform covariantly, as it will be seen later.
 
+---
+
+### Contravariant Transformations 
+
 The need to identify a different type of transformation emerges naturally.
 
 The **most natural contravariant tranformation** arises when we consider how 
-
-the compon'ents of vecto'r basis. GiveVvectors in a vector space change with respect to different  
-vecto'r basis. Give
-ith respect one ofthes
-
-
-e two basis to the components of the same vector wit
-h 
-respect to the opther basis.
+the components of vectors change with respect to different vector basis. 
 
 We would be wrong if, led by natural intuition, we assumed that the components 
 of vectors with respect basis vectors also transform covariantly; they don't.
 
 Let's assume we choose a vector V in the space and there are two vector basis Z and Z'.
-The vector V, as a geometrical object is the same regardless whether we express it in
+The vector V, as a geometrical object, is the same regardless whether we express it in
 terms of its components with respect the basis Z or the basis Z'.
 
 This fact allows us to write the following equations:
