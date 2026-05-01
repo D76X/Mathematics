@@ -714,10 +714,13 @@ that can help to remember and consolidate this concept.
       transforms covariantly with any change of the basis vectors of the 
       vector space. 
 
-- D4: A is covariant menas that A transforms the same way the basis vectors
+- D4: A is covariant means that A transforms the same way the basis vectors
       do, that is according to the rules:
-      - Z = JZ'
-      - Z' = JZ
+      - Z = JZ' = BZ'
+      - Z' = JZ = FZ
+
+- D5: in the covariant expression in tensor notation the free index appears as 
+      a subscript once on each side of the equation.
 
 This **is not the only case in which a quantity, mathematical / geometrical object,** 
 **transforms covariantly**. This case is the specific case obtained when the choice of 
@@ -752,114 +755,78 @@ in the components and as a subscript in the basis vector the component refers to
 These two equations say that any vector can be expressed as a linear combination 
 of the basis vectors through its components with respect that basis.
 
-From which we obtain the equation below as, the vector, a geometrical object in
-the space is independent of the particular choice of basis:
+From which we obtain the equation below as the vector, a geometrical object in
+the space, is independent of the particular choice of basis:
 
-```
-V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
-```
+V_sup_i Z_sub_i = V'_sup_k Z'_sub_k
 
-We can combine this equation, with the **covariant tranformation of the basis**:
+That can be written more succintly using the tensor notation
+V^i Zi =  V^i' Zi'
 
-```
-V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
-Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
-```
+We can combine these equations, with the **covariant tranformation of the basis**:
+
+V^i Zi = V^i' Zi'
+Zi' = J^i',i Zi
 
 The substitution results in the following equation:
 
-```
-V_sup_i Z_sub_i =  V'_sup_k Z'_sub_k
-Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
+V^i Zi =  V^i' ( J^i',i Zi )
+V^i Zi =  ( V^i' J^i',i ) Zi  = ( J^i,i' V^i') Zi
 
-=>
+Therefore the realtionship between 
+the vector component V^i with respect the basis vectors Z
+and
+the vector component V^i' with respect the basis vectors Z'
 
-V_sup_i Z_sub_i =  V'_sup_k (J'_sub_k_sup_i * Z_sub_i)
+V^i = J^i,i' V^i'
 
-=>
+that in a compact form can be written as
 
-V_sup_i Z_sub_i =  (V'_sup_k J'_sub_k_sup_i) * Z_sub_i
+V = J'V' = FV'
 
-=>
+We could stop here and say that this is a contravariant transformation.
+In a contravariant tranformation the free index appears as sup_i once on 
+both side of the equation.
 
-# We could stop here and say that this is a contravariant transformation.
-'
-# In a con'travariant tranformation t'he free index appears as sup_i once on both side of the equation.
+From this expression we notice that the components of vectors transform 
+differently from the way the vectors of basis do; they actually do the 
+exact opposite and some simple examples which we will discuss later will
+illustrate the point more clealry. 
 
+Z = JZ' = BZ'
+Z' = JZ = FZ
 
-V_s'up_i  '=  V'_ # Can' we place J V
-# Can' we place J 
- let's remind ourselves what J'_sub_k_sup_i represen
+By generalization, a **contravariant transormation**, and the corresponding 
+contravariant object is any for which the following expressions hold:
 
+A^i = J^i',i A^i'
+A = JA' = BA 
 
-ts.
+A^i' = J^i,i' A^i
+A' = J'A = FA 
 
-J'_sub_k_sup_i = DZ_sub_k/DZ'_sub_i
+What we have learnt about contravariant tranformations and contravariant objects
+of a vector space can be summirezed in the following
 
-# For the sake of the argument..
-# let's picture V_sup_i as a column
+- D1: a contravariant tranformation is always expressed in any of the compact forms 
+      - A' = JA = BA
+      - A = J'A' = FA'
 
-=>
+- D2: the compact forms correspond to the tensor notation below
+      - A^i' = J^i',i A^i
+      - A^i = J^i,i' A^i'
 
-# from:
+- D3: it is also said that the object A is a contravariant object because it 
+      transforms contravariantly with any change of the basis vectors of the 
+      vector space. 
 
-V_sup_i = V'_sup_k J'_sub_k_sup_i
+- D4: A is contravariant means that A transforms opposite with respect to the 
+      way the basis vectors do, that is according to the rules:
+      - Z = JZ' = BZ'
+      - Z' = JZ = FZ
 
-# also the second term is a column of numbers for each choice of the value of free index i.
-V'_sup_k J'_sub_k_sup_i
-
-# therefore the equivalence
-V_sup_i =  V'_sup_k J'_sub_k_sup_i = J'_sub_k_sup_i V'_sup_k 
-V_sup_i = J'_sub_k_sup_i V'_sup_k 
-
-```
-
-By generalization:
-
-```
-A_sup_i = J'_sub_k_sup_i A'_sup_k 
-
-```'
-
-This last equation can be used as th'e definition of a **contravariant transormation**, 
-
-in this tr'anformation the free index i appears once on the left side and once on the
-right' side of the  t and controvariant tranV
-# Summary of covarint and controvariant tranf
-rmati
-
-
-ons
-
-1. In both tranformations the free index i appears once on the left side and once on the
-right side of the equation.
-
-2. In any covariant tranformation the free index appears as a subscript. 
-The most tipical example of covariant tranformation is the tranformation that exists 
-betwe'en any pair of vector basis Z <=> Z'.
-'
-3. I'n any contravariant tranformation the 'free index appears as a superscrip.
-
-The most t'ipical exbetwe''en th'e vectoVample of contravariant tranformation is the tranformation that exists  
-betwe''en th'e vecto
-ect
-
-
-Vo'r basis Z and 
-
- N
-
-
-'otes:
-'  **'invariant** V
-Te **'invariant** v
-with
-
-
- respect a basis, which transform 'contravariantly and the basis vectors which transform
-
-covariantl'y.
-VV = V'_sup_i Z_sub_ 
+- D5: in the contravariant expression in tensor notation the free index appears as 
+      a superscript once on each side of the equation.
 
 ---
 
