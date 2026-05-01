@@ -449,36 +449,37 @@ geometrical fashion.
 
 ---
 
+---
+
 ## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
 
 Given the generalized covariant tranformation:
 
+In the following expression the index k stands for the primed index i':
+
 ```
-A_sub_i = J_sub_i_sup_k * A_sub_k
+A_sub_i = J_sup_k_sub_i * A_sub_k
 ```
 
-One particular transformation of this class is the tranformation between 
+One particular transformation of this class is the transformation between 
 any pair of arbitrarily chosen basis vectors Z and Z'.
 
-For (the backward) tranformation: Z' => Z 
+We call the following the backward tranformation: Z' => Z 
 
-It is meant that the basis vectors Z should be expressed as linear  
-combination of the basis vectors Z'
+This transformation expresses the basis vectors Z as linear combination 
+of the basis vectors Z'.
 
 ???
 ```
-Z_sub_i = J_sub_i_sup_k * Z'_sub_k 
-J_sub_i_sup_k = DZ_sub_k/DZ'_sub_i 
-Zi = J^k,i Zk
 Z = BZ' = JZ' 
-
+Z_sub_i = J_sup_k_sub_i * Z'_sub_k 
+J_sup_k_sub_i = DZ'_sub_k/DZ_sub_i = J^k,i
+Zi = J^k,i Zk
 ```
 
-For the transformation: Z => Z'
-
-It is meant that the basis vectors Z' should be expressed in terms of their components
-with respect the basis vectors Z
-
+The transformation in the other direction is called the forward transformation: Z => Z'
+This transformation expresses the basis vectors Z' as a linear combination of the vectors 
+vectors in the basis Z.
 
 ```
 Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
@@ -501,6 +502,7 @@ way.
 - The mnemonics (mnemonic expressions)     
     Z' = J' Z
     Z = J Z'
+
 ---
 
 ## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
@@ -661,16 +663,41 @@ Where
 B: the backward transformation
 F: the forwardward transformation
 
+Accordingly, the compact notation:
+
+Z = BZ' = JZ'
+Z' = FZ = J'Z
+
 Therefore the second index in the Jacobian tells which of the basis is 
 the ""starting basis" of the tranformation!
 
 Finally this notation results in the following simple expression of 
 the Kronecker Delta:
 
-KDelta^i,j = J^i,i' J^i',j   => KDelta = J'J
-KDelta^i',j' = J^i',i J^i,j' => KDelta = JJ'
+KDelta^i,j = J^i,i' J^i',j   => KDelta = J'J = FB
+KDelta^i',j' = J^i',i J^i,j' => KDelta = JJ' = BF
 
-???
+It is worth noticing that in the notation, perhaps counterintuitively, B = J and NOT F = J.
+
+The following is a summary of all the expressions that have been written in this part
+of the document related to covariant transformations:
+
+Z_sub_i = J^i',i Z_sub_i' 
+Z = BZ' = JZ'
+
+Z_sub_i'= J^i,i' Z_sub_i 
+Z' = FZ = J'Z
+
+J^i',i is the Jacobian of the transfromation from Z' to Z => J^i',i  = J  = B 
+J^i,i' is the Jacobian of the transfromation from Z  to Z' => J^i,i' = J' = F
+
+A =  JA' = BA'
+Ai = J^i',i Ai' 
+J^i',i = DZ'i'/DZi = DZ'_sub_i'/DZ_sub_i = DZ_sub_i'/DZ_sub_i = DZi'/DZi
+
+A' =  J'A = FA
+Ai' = J^i,i' Ai 
+J^i,i' = DZi/DZ'i' = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i' = DZi/DZi'
 
 ---
 
@@ -824,9 +851,8 @@ with
 covariantl'y.
 VV = V'_sup_i Z_sub_ 
 
-
-
 ---
+
 
 ## [10 - Covariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=7Vr4MWm8ysA)    
 
