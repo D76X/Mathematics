@@ -699,6 +699,8 @@ A' =  J'A = FA
 Ai' = J^i,i' Ai 
 J^i,i' = DZi/DZ'i' = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i' = DZi/DZi'
 
+???
+
 ---
 
 ### Contravariant Transformations 
