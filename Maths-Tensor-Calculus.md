@@ -234,6 +234,7 @@ that can be arranged in some fashion, such as:
 
 ---
 
+???
 ## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
 
 [Tensor Notation: Kronecker Delta](https://www.continuummechanics.org/tensornotationbasic.html)    
@@ -265,7 +266,7 @@ CONDENSED DEFINITIONS AND RELATIONSHIPS AS MNEMONICS:
 
     V' = J' V = B V
     A' = J' A = B A
-    ???
+    
     
     A_sup_i = J'_sub_i_sup_k A_sup_i 
 
@@ -449,8 +450,7 @@ geometrical fashion.
 
 ---
 
----
-
+???
 ## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
 
 Given the generalized covariant tranformation:
@@ -469,7 +469,6 @@ We call the following the backward tranformation: Z' => Z
 This transformation expresses the basis vectors Z as linear combination 
 of the basis vectors Z'.
 
-???
 ```
 Z = BZ' = JZ' 
 Z_sub_i = J_sup_k_sub_i * Z'_sub_k 
