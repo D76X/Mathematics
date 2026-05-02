@@ -78,6 +78,10 @@
 
 ---
 
+[Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
+
+---
+
 [Tensors for Beginners 3: Vector Transformation Rules eigenchris](https://www.youtube.com/watch?v=A1h_eucHFW4)  
 
 ## Summary
