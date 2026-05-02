@@ -506,6 +506,11 @@ way.
 
 ## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
 
+> This lesson can be matched to the following:
+
+[Tensors for Beginners 3: Vector Transformation Rules eigenchris](https://www.youtube.com/watch?v=A1h_eucHFW4&t=191s)  
+
+
 ### Covariant Transformations 
 
 A covariant transformation is any quantity that transforms according to the Jacobian relation
@@ -609,24 +614,24 @@ J'^i,i' = J^i,i' = J_sub_i'_sup_i = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i'
 The notations can be confusing without a deep understanding of their meaning,
 therefore as a way to clarify the notation further we present some examples.
 
-> Z_sub_i = Zi 
+Z_sub_i = Zi 
 
 This is the i-th vector of the base Z
 
-> Z'_sub_i' = Z'i' = Z_sub_i' = Zi'
+Z'_sub_i' = Z'i' = Z_sub_i' = Zi'
 
 This is the i'-th vector of the basis Z'; notice that when the index is i' it
 becomes obvious that it refers to the primed basis Z', therefore the prime symbol
 can also be dropped from the symbol Z'. This makes the expressions a bit simpler 
 to read.
 
-> DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i'
+DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i'
 
 The same applies here where the index i' implies that the Z' basis is used and therefore 
 the prime on the DZ'_sub_i' can be dropped to obtain DZ_sub_i'.
 
-> J^i',i = J_sub_i_sup_i' = DZ'_sub_i'/DZ_sub_i
-> J'^i,i' = J^i,i' = J_sub_i'_sup_i = = DZ_sub_i/DZ_sub_i'
+J^i',i = J_sub_i_sup_i' = DZ'_sub_i'/DZ_sub_i
+J'^i,i' = J^i,i' = J_sub_i'_sup_i = = DZ_sub_i/DZ_sub_i'
 
 The notation for the Jacobians can be a bit difficult to remember.
 Consider the following facts.
@@ -691,12 +696,12 @@ J^i',i is the Jacobian of the transfromation from Z' to Z => J^i',i  = J  = B
 J^i,i' is the Jacobian of the transfromation from Z  to Z' => J^i,i' = J' = F
 
 A =  JA' = BA'
-Ai = J^i',i Ai' 
-J^i',i = DZ'i'/DZi = DZ'_sub_i'/DZ_sub_i = DZ_sub_i'/DZ_sub_i = DZi'/DZi
+Ai = J^i',i Ai' = Ji',i Ai'
+Ji',i = J^i',i = DZ'i'/DZi = DZ'_sub_i'/DZ_sub_i = DZ_sub_i'/DZ_sub_i = DZi'/DZi
 
 A' =  J'A = FA
-Ai' = J^i,i' Ai 
-J^i,i' = DZi/DZ'i' = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i' = DZi/DZi'
+Ai' = J^i,i' Ai = Ji,i' Ai
+Ji,i' = J^i,i' = DZi/DZ'i' = DZ_sub_i/DZ'_sub_i' = DZ_sub_i/DZ_sub_i' = DZi/DZi'
 
 We conclude this part about covariant transformations with some statements
 that can help to remember and consolidate this concept.
@@ -706,8 +711,8 @@ that can help to remember and consolidate this concept.
       - A' = J'A
 
 - D2: the compact forms correspond to the tensor notation below
-      - Ai = J^i',i Ai'
-      - Ai' = J^i,i' Ai
+      - Ai = J^i',i Ai' = Ji',i Ai' 
+      - Ai' = J^i,i' Ai = Ji,i' Ai 
 
 - D3: it is also said that the object A is a covariant object because it 
       transforms covariantly with any change of the basis vectors of the 
@@ -716,7 +721,7 @@ that can help to remember and consolidate this concept.
 - D4: A is covariant means that A transforms the same way the basis vectors
       do, that is according to the rules:
       - Z = JZ' = BZ'
-      - Z' = JZ = FZ
+      - Z' = J'Z = FZ
 
 - D5: in the covariant expression in tensor notation the free index appears as 
       a subscript once on each side of the equation.
@@ -745,8 +750,8 @@ terms of its components with respect the basis Z or the basis Z'.
 This fact allows us to write the following equations:
 
 ```
-V = V_sup_i Z_sub_i
-V = V'_sup_k Z'_sub_k
+V = V_sup_i Z_sub_i = V^i Zi
+V = V'_sup_i' Z'_sub_i' = V^i' Zi'
 ```
 
 The index in the right term of the equation is dummy as it appears as superscript
@@ -757,30 +762,31 @@ of the basis vectors through its components with respect that basis.
 From which we obtain the equation below as the vector, a geometrical object in
 the space, is independent of the particular choice of basis:
 
-V_sup_i Z_sub_i = V'_sup_k Z'_sub_k
-
-That can be written more succintly using the tensor notation
-V^i Zi =  V^i' Zi'
+V^i Zi = V^i' Zi'
 
 We can combine these equations, with the **covariant tranformation of the basis**:
 
-V^i Zi = V^i' Zi'
-Zi' = J^i',i Zi
+A' =  J'A = FA                      =>    Z' =  J'Z = FZ
+Ai' = J^i,i' Ai = Ji,i' Ai          =>    Zi' = J^i,i' Zi = Ji,i' Zi
 
 The substitution results in the following equation:
 
-V^i Zi =  V^i' ( J^i',i Zi )
-V^i Zi =  ( V^i' J^i',i ) Zi  = ( J^i,i' V^i') Zi
+V^i Zi =  V^i' ( J^i,i' Zi )
+V^i Zi =  ( V^i' J^i,i' ) Zi  = ( J^i,i' V^i') Zi
+
+> NOTE: It is easy to make a mistake here, the correct commutation is the following:
+
+V^i' J^i,i' = J^i,i' V^i'     =>    V^i' Ji,i' = Ji,i' V^i'
 
 Therefore the realtionship between 
 the vector component V^i with respect the basis vectors Z
 and
 the vector component V^i' with respect the basis vectors Z'
 
-V^i = J^i,i' V^i'
+J^i',i is the Jacobian of the transfromation from Z' to Z => J^i',i  = J  = B 
+J^i,i' is the Jacobian of the transfromation from Z  to Z' => J^i,i' = J' = F
 
-that in a compact form can be written as
-
+V^i = J^i,i' V^i' = Ji,i' V^i'
 V = J'V' = FV'
 
 We could stop here and say that this is a contravariant transformation.
@@ -793,27 +799,30 @@ exact opposite and some simple examples which we will discuss later will
 illustrate the point more clealry. 
 
 Z = JZ' = BZ'
-Z' = JZ = FZ
+Z' = J'Z = FZ
+
+V = J'V' = FV'
+V' = JV = BV'
 
 By generalization, a **contravariant transormation**, and the corresponding 
 contravariant object is any for which the following expressions hold:
 
-A^i = J^i',i A^i'
-A = JA' = BA 
+A^i = J^i,i' A^i' = Ji,i' A^i'
+A = J'A' = FA' 
 
-A^i' = J^i,i' A^i
-A' = J'A = FA 
+A^i' = J^i',i A^i = Ji',i A^i
+A' = JA = BA 
 
 What we have learnt about contravariant tranformations and contravariant objects
 of a vector space can be summirezed in the following
 
 - D1: a contravariant tranformation is always expressed in any of the compact forms 
-      - A' = JA = BA
       - A = J'A' = FA'
+      - A' = JA = BA
 
 - D2: the compact forms correspond to the tensor notation below
-      - A^i' = J^i',i A^i
       - A^i = J^i,i' A^i'
+      - A^i' = J^i',i A^i
 
 - D3: it is also said that the object A is a contravariant object because it 
       transforms contravariantly with any change of the basis vectors of the 
@@ -822,10 +831,10 @@ of a vector space can be summirezed in the following
 - D4: A is contravariant means that A transforms opposite with respect to the 
       way the basis vectors do, that is according to the rules:
       - Z = JZ' = BZ'
-      - Z' = JZ = FZ
+      - Z' = J'Z = FZ
       therefore the contravariant canonical transformations are
-      - V' = JV = BV
       - V = J'V' = FV'
+      - V' = JV = BV
 
 - D5: in the contravariant expression in tensor notation the free index appears as 
       a superscript once on each side of the equation.
