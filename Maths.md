@@ -19,7 +19,11 @@
 [https://www.youtube.com/@AbideByReason](https://www.youtube.com/@AbideByReason) 
 
 [Lagrangian vs Hamiltonian Mechanics  Abide By Reason](https://www.youtube.com/watch?v=tpp1Ahmij_Q)   
-[Legendre's Transform \- A Simple yet Powerful Maths Trick](https://www.youtube.com/watch?v=P2HZelQm7Lw&t=19s) 
+
+[Legendre's Transform \- A Simple yet Powerful Maths Trick](https://www.youtube.com/watch?v=P2HZelQm7Lw&t=19s)   
+
+[The Most Misunderstood Concept in Math Abide By Reason](https://www.youtube.com/watch?v=triNEat764M&t=2s)  
+
 
 ---
 

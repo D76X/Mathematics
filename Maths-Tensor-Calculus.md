@@ -78,7 +78,13 @@
 
 ---
 
+# Covectors
+
 [Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
+
+[Tensors for Beginners 5: Covector Components eigenchris](https://www.youtube.com/watch?v=rG2q77qunSw&t=10s)   
+
+[Tensors for Beginners 6: Covector Transformation Rules eigenchris](https://www.youtube.com/watch?v=d5da-mcVJ20)  
 
 ---
 
@@ -235,6 +241,10 @@ that can be arranged in some fashion, such as:
 > Suggested Book:
 
 [Introduction to tensor analysis and the calculus of moving surfaces - Pavel Grinfeld](https://www.amazon.it/Introduction-Analysis-Calculus-Surfaces-English-ebook/dp/B00FE92A28/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.m2MXznZBkCdjie08jSp1Pt7fXaWxvRIgRv0WQAWw39A.kG5-WC25uFNjM5LO3grogBzXSF5fYI59GlMP4F5eMdE&qid=1771400258&sr=8-1)  
+
+---
+
+## [Video 14 - Dot Product Tensor Calculus](https://www.youtube.com/watch?v=hhwn5lBGlp0&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=14)  
 
 ---
 
@@ -454,61 +464,34 @@ geometrical fashion.
 
 ---
 
-???
 ## [Video 12 - Jacobian Examples Tensor Calculus](https://www.youtube.com/watch?v=t6PwzNsg4cE&t=825s)   
 
-Given the generalized covariant tranformation:
+### One important remark from Video 11 in this series
 
-In the following expression the index k stands for the primed index i':
+If we consider the tensor notation of the contravariant transformation of the
+the vector components:
 
-```
-A_sub_i = J_sup_k_sub_i * A_sub_k
-```
+V = J'V' = FV'
+V' = JV = BV'
 
-One particular transformation of this class is the transformation between 
-any pair of arbitrarily chosen basis vectors Z and Z'.
+V^i = J^i,i' V^i' = Ji,i' V^i'
+V^i' = J^i',i V^i = Ji',i V^i
 
-We call the following the backward tranformation: Z' => Z 
+and the following equation in particular:
 
-This transformation expresses the basis vectors Z as linear combination 
-of the basis vectors Z'.
+V^i Zi = V^i' Zi'
 
-```
-Z = BZ' = JZ' 
-Z_sub_i = J_sup_k_sub_i * Z'_sub_k 
-J_sup_k_sub_i = DZ'_sub_k/DZ_sub_i = J^k,i
-Zi = J^k,i Zk
-```
+It is remarkable that, while the components V^i, V^i' transform contravariantly,
+the basis vectors Zi, Zi' transform covariantly and the net effect, so to speak, is that this equation holds, that is the **vector** itself in **an invariant**!
 
-The transformation in the other direction is called the forward transformation: Z => Z'
-This transformation expresses the basis vectors Z' as a linear combination of the vectors 
-vectors in the basis Z.
-
-```
-Z'_sub_i = J'_sub_i_sup_k * Z_sub_k
-
-J'_sub_i_sup_k = DZ'_sub_k/DZ_sub_i
-
-```
-
-The notation used to express the Jacobian can be remmbered in the following
-way.
-
-- The Jacobian is primed, that is 
-    - J' when the Z' is the first term of the equation 
-    - J  when the Z  is the first term of the equation 
-
-- The partial derivatives are always 
-    - for J'= f'(Z) are DZ'/DZ
-    - for J = f(Z')  are DZ/DZ'
-
-- The mnemonics (mnemonic expressions)     
-    Z' = J' Z
-    Z = J Z'
+It is as if the effect of the contravariant tranformation of its components with 
+respect a change of basis and the covariant transformation of the basis, cancel
+each other out to preserve the invariance of the vecotr as a geometric object
+in any vector space, independent of the particular choice of the basis.
 
 ---
 
-## [11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
+## [Video 11 - Vector Transformations Tensor Calculus](https://www.youtube.com/watch?v=AxcvERPg4JQ&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=11)  
 
 > This lesson can be matched to the following:
 
