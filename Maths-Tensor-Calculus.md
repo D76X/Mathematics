@@ -244,11 +244,26 @@ that can be arranged in some fashion, such as:
 
 ---
 
+# Vector Differentiation, the lenght of a curve, the dDot Product and the Metric Tensor
+
+## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
+
+- vector Differentiation  
+- parametrization
+
 ## [Video 14 - Dot Product Tensor Calculus](https://www.youtube.com/watch?v=hhwn5lBGlp0&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=14)  
+
+- the dot product
+
+## [Video 15 - Covariant Metric Tensor Tensor Calculus](https://www.youtube.com/watch?v=uROT5BCYF1E&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)    
+
+- the metric tensor
+
 
 ---
 
-???
+# The Kronecker Delta  
+
 ## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
 
 [Tensor Notation: Kronecker Delta](https://www.continuummechanics.org/tensornotationbasic.html)    
@@ -425,7 +440,7 @@ We have spelled out above the covariant tranformations:
 ## Recap of the meaning of covariant 'and contravariant transformations
 
 
-### Covar'iant tranEarli'er we startedVformation 
+### Covariant tranEarli'er we startedVformation 
 Earli'er we started
 athematical view point and stated that a covariant transfromation is a
 
