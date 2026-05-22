@@ -24,6 +24,7 @@
 
 [The Most Misunderstood Concept in Math Abide By Reason](https://www.youtube.com/watch?v=triNEat764M&t=2s)  
 
+[How Maxwell's Equations Were Discovered Abide By Reason](https://www.youtube.com/watch?v=-hua8RWopfw)  
 
 ---
 

@@ -78,6 +78,12 @@
 
 ---
 
+# The Metrics Tensor
+
+[Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
+
+---
+
 # Covectors
 
 [Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
@@ -245,6 +251,8 @@ that can be arranged in some fashion, such as:
 ---
 
 # Vector Differentiation, the lenght of a curve, the dDot Product and the Metric Tensor
+
+## [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
 
 ## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
 
