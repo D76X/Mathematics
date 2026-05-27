@@ -59,13 +59,18 @@
 
 # Linear Algebra
 
-[The determinant | Chapter 6, Essence of Linear Algebra \- 3Blue1Brown](https://www.youtube.com/watch?v=Ip3X9LOh2dk)  
+[The determinant | Chapter 6, Essence of Linear Algebra \- 3Blue1Brown](https://www.youtube.com/watch?v=Ip3X9LOh2dk)   
+
 [Why is the determinant like that?  broke math student](https://www.youtube.com/watch?v=Sv7VseMsOQc)   
+
 [Matrix trace isn't just summing the diagonal | Lie groups, algebras, brackets \#5  **Mathemaniac**](https://www.youtube.com/watch?v=B2PJh2K-jdU) 
 
 [Part 1 Linear Algebra: An In-Depth Introduction](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)  
+
 [Linear Algebra 14TBD: The Direct Algebraic Definition of the Determinant  \- **MathTheBeautiful**](https://www.youtube.com/watch?v=D8rghkxf4eU)   
-[Linear Algebra 17e: Easy Eigenvalues \- The Trace  MathTheBeautiful \- MathTheBeautiful](https://www.youtube.com/watch?v=w-0zhkbNb6g) 
+
+[Linear Algebra 17e: Easy Eigenvalues \- The Trace  MathTheBeautiful \- MathTheBeautiful](https://www.youtube.com/watch?v=w-0zhkbNb6g)  
+
 [Linear Algebra 2i: Polynomials Are Vectors, Too! MathTheBeautiful](https://www.youtube.com/watch?v=xhTciBubSfM&list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv&index=12)    
 
 ---
