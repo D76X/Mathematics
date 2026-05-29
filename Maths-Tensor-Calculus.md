@@ -78,9 +78,24 @@
 
 ---
 
+# Bilinear Forms and the Metrics Tensor + Quadratic Forms
+
+[Tensors for Beginners 10: Bilinear Forms eigenchris](https://youtu.be/jLiBCaBEB3o?si=GPLrBFcSxxOWgzHQ)
+
+[Lecture 56. Bilinear and Quadratic Forms Yuly Billig](https://www.youtube.com/watch?v=zp31W5NEhxY)   
+
+---
+
 # The Metrics Tensor
 
 [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
+
+---
+
+#  Linear Maps 
+
+[Tensors for Beginners 7: Linear Maps eigenchris](https://youtu.be/dtvM-CzNe50?si=UXpv66sLTe_8PyUp)  
+[Tensors for Beginners 8: Linear Maps Transformation Ruleseigenchris](https://youtu.be/SSSGA6ohkfw?si=yen1mU0Un82dJQme)  
 
 ---
 
