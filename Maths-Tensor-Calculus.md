@@ -78,9 +78,10 @@
 
 ---
 
-# Bilinear Forms and the Metrics Tensor + Quadratic Forms
+# Bilinear Forms and the Metrics Tensor + Quadratic Forms + The Tensor Product
 
 [Tensors for Beginners 10: Bilinear Forms eigenchris](https://youtu.be/jLiBCaBEB3o?si=GPLrBFcSxxOWgzHQ)
+[Tensors for Beginners 12: Bilinear Forms are Covector-Covector pairs eigenchris](https://www.youtube.com/watch?v=uDRzJIaN2qw)    
 
 [Lecture 56. Bilinear and Quadratic Forms Yuly Billig](https://www.youtube.com/watch?v=zp31W5NEhxY)   
 
