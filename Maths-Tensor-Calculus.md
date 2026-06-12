@@ -74,7 +74,13 @@
 
 ---
 
+[Tensor Decomposition I - Simons Institute for the Theory of Computing](https://www.youtube.com/watch?v=F-eORHovOe0)  
+
+---
+
 [Tensors for Beginners eigenchris Course](https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG)   
+
+[Tensor Decomposition I: Tensors and Classical Algebraic Geometry](https://simons.berkeley.edu/talks/tensor-decomposition-i-tensors-classical-algebraic-geometry)  
 
 ---
 
