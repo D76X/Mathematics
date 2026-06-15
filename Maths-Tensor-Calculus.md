@@ -222,6 +222,8 @@ and that of its representetion, that is the vector components.
 
 [Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
 
+[Video 19 - Tensor Definition Tensor Calculus](https://www.youtube.com/watch?v=wZPuSNGUNQU)  
+
 ## Definitions of Tensor
 
 3. A tensor is a collection of vectors and covectors combined together using the tensor product.
@@ -272,6 +274,12 @@ that can be arranged in some fashion, such as:
 
 ---
 
+## [Video 19 - Tensor Definition Tensor Calculus](https://www.youtube.com/watch?v=wZPuSNGUNQU)  
+
+[Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
+
+---
+
 # Vector Differentiation, the lenght of a curve, the dDot Product and the Metric Tensor
 
 ## [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
@@ -289,6 +297,11 @@ that can be arranged in some fashion, such as:
 
 - the metric tensor
 
+## [Video 16 - Covariant Metric Examples Tensor Calculus](https://www.youtube.com/watch?v=hEMtF_NU4II&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)  
+
+## [Video 17 - Contravariant Basis Tensor Calculus](https://www.youtube.com/watch?v=XYaCnlB_b-U&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=17)  
+
+## [Video 18 - Contravariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=lrVqHIg2iyo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=18)  
 
 ---
 
