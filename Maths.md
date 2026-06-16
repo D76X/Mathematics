@@ -26,6 +26,9 @@
 
 [How Maxwell's Equations Were Discovered Abide By Reason](https://www.youtube.com/watch?v=-hua8RWopfw)  
 
+[How Divergence and Curl Were Invented Abide By Reason](https://www.youtube.com/watch?v=11QvV18JGQM)  
+
+
 ---
 
 # Mathemaniac

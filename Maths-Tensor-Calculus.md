@@ -303,6 +303,8 @@ that can be arranged in some fashion, such as:
 
 ## [Video 18 - Contravariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=lrVqHIg2iyo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=18)  
 
+## [Tensors for Beginners 13: Tensor Product vs Kronecker Product eigenchris](https://www.youtube.com/watch?v=qp_zg_TD0qE)  
+
 ---
 
 # The Kronecker Delta  
