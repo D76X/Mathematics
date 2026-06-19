@@ -310,6 +310,7 @@ that can be arranged in some fashion, such as:
 # The Kronecker Delta  
 
 ## [Video 13 - Kronecker Delta Tensor Calculus](https://www.youtube.com/watch?v=z2tgcbKdtII)  
+## [Tensors for Beginners 13: Tensor Product vs Kronecker Product eigenchris](https://www.youtube.com/watch?v=qp_zg_TD0qE)  
 
 [Tensor Notation: Kronecker Delta](https://www.continuummechanics.org/tensornotationbasic.html)    
 
