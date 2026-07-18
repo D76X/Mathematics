@@ -86,16 +86,26 @@
 
 # Bilinear Forms and the Metrics Tensor + Quadratic Forms + The Tensor Product
 
-[Tensors for Beginners 10: Bilinear Forms eigenchris](https://youtu.be/jLiBCaBEB3o?si=GPLrBFcSxxOWgzHQ)
+[Tensors for Beginners 10: Bilinear Forms eigenchris](https://youtu.be/jLiBCaBEB3o?si=GPLrBFcSxxOWgzHQ)  
+[Lecture 56. Bilinear and Quadratic Forms Yuly Billig](https://www.youtube.com/watch?v=zp31W5NEhxY)   
+
+[Tensors for Beginners 11: Linear maps are Vector-Covector Pairs](https://www.youtube.com/watch?v=YK2zVcWpROA&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=14)  
+
 [Tensors for Beginners 12: Bilinear Forms are Covector-Covector pairs eigenchris](https://www.youtube.com/watch?v=uDRzJIaN2qw)    
 
-[Lecture 56. Bilinear and Quadratic Forms Yuly Billig](https://www.youtube.com/watch?v=zp31W5NEhxY)   
+[Tensors for Beginners 13: Tensor Product vs Kronecker Product eigenchris](https://www.youtube.com/watch?v=qp_zg_TD0qE&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=15)   
+
+[Tensors for Beginners 14: Tensors are general vector/covector combinations eigenchris](https://www.youtube.com/watch?v=9R4vhqvE_jw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=16)  
+
 
 ---
 
 # The Metrics Tensor
 
 [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
+
+- it's purpose is to allow the measurement of angles aplitude and distance
+- 
 
 ---
 
