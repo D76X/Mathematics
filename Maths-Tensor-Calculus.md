@@ -290,22 +290,36 @@ that can be arranged in some fashion, such as:
 
 ---
 
-# Vector Differentiation, the lenght of a curve, the dDot Product and the Metric Tensor
+# Vector Differentiation, the lenght of a curve, the dot Product and the Metric Tensor
+
+---
+
+## The Metric Tensor
+
+In order to understand what a tensro is one can start with the Metric Tensor.
+The following two videos describe the Metric Tensor with slightly different approaches.
 
 ## [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
 
-## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
+## [Video 15 - Covariant Metric Tensor Tensor Calculus](https://www.youtube.com/watch?v=uROT5BCYF1E&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)    
+
+The latter of these two videos introduces the Metric Tensor is a slightly more sophisticated way
+that requires some preliminary knowledge to be fully understood.
+
+The concept of dot product is essential to understanding the Metric Tensor.
+
+## [Video 14 - Dot Product Tensor Calculus](https://www.youtube.com/watch?v=hhwn5lBGlp0&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=14)  
+
+The following concept are also required: 
 
 - vector Differentiation  
 - parametrization
 
-## [Video 14 - Dot Product Tensor Calculus](https://www.youtube.com/watch?v=hhwn5lBGlp0&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=14)  
+## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
 
-- the dot product
+[Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s)
 
-## [Video 15 - Covariant Metric Tensor Tensor Calculus](https://www.youtube.com/watch?v=uROT5BCYF1E&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)    
-
-- the metric tensor
+---
 
 ## [Video 16 - Covariant Metric Examples Tensor Calculus](https://www.youtube.com/watch?v=hEMtF_NU4II&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)  
 
