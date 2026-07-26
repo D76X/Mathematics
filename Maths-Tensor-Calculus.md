@@ -104,13 +104,8 @@
 
 [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)   
 
-[Video 15 - Covariant Metric Tensor Tensor Calculus](https://www.youtube.com/watch?v=uROT5BCYF1E&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=16)  
-This has the following prerequisites:
-[Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)   
-[Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=10&t=1034s)  
-
-- it's purpose is to allow the measurement of angle aplitude and distance / length
-- the metric tensor definition is contigent to the definition of the dot produt
+- its purpose is to allow the measurement of angles aplitude and distance
+- 
 
 ---
 
