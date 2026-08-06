@@ -20,7 +20,9 @@
 
 [What's The Difference Between Matrices And Tensors? Dr. Simulate](https://www.youtube.com/watch?v=1GwAEnegaRs)  
 [A Common Misconception About Tensors Explained Dr. Simulate](https://www.youtube.com/watch?v=4ORgpdfnX5o&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=2)  
+
 [The First Ever Visualization Of Tensor Invariants Dr. Simulate](https://www.youtube.com/watch?v=P7yXAPFrXX4&list=PLMF9mxKF2mHIfv4KwPeexHtHVLgBJHtaS&index=3)  
+
 [Don't Treat Tensors Like Matrices Dr. Simulate](https://www.youtube.com/watch?v=RxoZqQmHqbY)  
 
 [How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
@@ -296,8 +298,9 @@ that can be arranged in some fashion, such as:
 
 ## The Metric Tensor
 
-In order to understand what a tensro is one can start with the Metric Tensor.
-The following two videos describe the Metric Tensor with slightly different approaches.
+In order to understand what a tensor is one can start with the Metric Tensor.
+The following two videos describe the Metric Tensor with slightly different 
+approaches.
 
 ## [Tensors for Beginners 9: The Metric Tensor eigenchris](https://www.youtube.com/watch?v=C76lWSOTqnc&t=341s)  
 
@@ -305,7 +308,6 @@ The following two videos describe the Metric Tensor with slightly different appr
 
 The latter of these two videos introduces the Metric Tensor is a slightly more sophisticated way
 that requires some preliminary knowledge to be fully understood.
-
 The concept of dot product is essential to understanding the Metric Tensor.
 
 ## [Video 14 - Dot Product Tensor Calculus](https://www.youtube.com/watch?v=hhwn5lBGlp0&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=14)  
@@ -315,9 +317,18 @@ The following concept are also required:
 - vector Differentiation  
 - parametrization
 
-## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
+[Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
 
 [Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s)
+
+[Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=264s)
+
+This video uses the concept of dot product and its connection to the definition of the metric tensor
+to determine a procedure that allows given a vector chosen in the vector space V to determine a vector
+in the dual space V* [the vector space of the linear applications L: V -> R ] so that when in the space 
+V a covariant basis {ej} is chose, the corresponding set of covectors {e^j} is ALSO a basis in V*.
+
+However, as it is 
 
 ---
 
