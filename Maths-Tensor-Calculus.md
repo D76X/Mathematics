@@ -324,11 +324,14 @@ The following concept are also required:
 [Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=264s)
 
 This video uses the concept of dot product and its connection to the definition of the metric tensor
-to determine a procedure that allows given a vector chosen in the vector space V to determine a vector
-in the dual space V* [the vector space of the linear applications L: V -> R ] so that when in the space 
-V a covariant basis {ej} is chose, the corresponding set of covectors {e^j} is ALSO a basis in V*.
+to determine a procedure that allows, given a vector chosen in the vector space V, to determine a 
+covector in the dual space V* [the vector space of the linear applications L: V -> R ] so that when 
+in the space V a covariant basis {ej} is chosen, the corresponding set of covectors {e^j} is ALSO a 
+basis in V*.
 
-However, as it is 
+However, it also shows that there exist more than one possible of such correspondance {ej} <--> {e^j},
+but one of these, based on the dotproduct and the metric tensor, holds the special property of making
+it easy to determine the ...
 
 ---
 
