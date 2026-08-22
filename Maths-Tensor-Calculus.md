@@ -43,9 +43,13 @@
 # Tensor Product & Tensor Spaces
 
 [Tensor Products  by Mu Prime Math \- Playlist](https://www.youtube.com/playlist?list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk)   
-[01\. A Concrete Introduction to Tensor Products \- Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=2)   
+
+[01\. A Concrete Introduction to Tensor Products \- Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=2)    
+
 [02\. Complete Derivation: Universal Property of the TP  \- Mu Prime Math](https://www.youtube.com/watch?v=vZzZhdLC_YQ)  
+
 [03\. Tensor Product Basis With the Universal Property  Mu Prime Math](https://www.youtube.com/watch?v=5i8tp0rD2EA&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=3)   
+
 [04\. Proof: Uniqueness of the Tensor Product \- Mu Prime Math](https://www.youtube.com/watch?v=VJJK2BoIaD8&t=301s) 
 
 ### Tensor Product & Tensor Spaces in Quantum Mechanics
@@ -53,9 +57,13 @@
 [Tensor product state spaces, Professor M does Science](https://www.youtube.com/watch?v=kz3206S2B6Q) 
 
 [Tensor products of vectors \- IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/classical-information#tensor-products-of-vectors)   
+
 [Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
+
 [The Tensor Product, Demystified](https://www.math3ma.com/blog/the-tensor-product-demystified)   
+
 [How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
+
 [Tensorphobia and the Outer Product](https://www.jeremykun.com/2016/03/28/tensorphobia-outer-product/)
 
 ### Intuitive meaning and definition of a tensor
@@ -99,6 +107,13 @@
 
 [Tensors for Beginners 14: Tensors are general vector/covector combinations eigenchris](https://www.youtube.com/watch?v=9R4vhqvE_jw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=16)  
 
+---
+
+# Raising and lowering tensor indexes
+
+[Video 22 - Raising & Lowering Indexes - Tensor Calculus](https://www.youtube.com/watch?v=SZHR_il0k7M&t=664s)
+
+[Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=284s)  
 
 ---
 
