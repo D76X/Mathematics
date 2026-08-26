@@ -126,6 +126,12 @@
 
 ---
 
+There is also another way to see what the metric tensor is, as shown in the following video.
+[Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=284s)  
+
+
+---
+
 #  Linear Maps 
 
 [Tensors for Beginners 7: Linear Maps eigenchris](https://youtu.be/dtvM-CzNe50?si=UXpv66sLTe_8PyUp)  
