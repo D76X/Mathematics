@@ -2,6 +2,12 @@
 
 ---
 
+# DIBEOS
+
+[The Explanation of Integrals I Wish I Had DIBEOS](https://www.youtube.com/watch?v=idh_u7jasPw)
+
+---
+
 # Dr. Bevin Maultsby
 
 [https://www.youtube.com/@bevinmaultsby](https://www.youtube.com/@bevinmaultsby) 
