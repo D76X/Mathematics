@@ -26,12 +26,17 @@
 [Don't Treat Tensors Like Matrices Dr. Simulate](https://www.youtube.com/watch?v=RxoZqQmHqbY)  
 
 [How to Conquer Tensorphobia](https://www.jeremykun.com/2014/01/17/how-to-conquer-tensorphobia/)   
+
 [Tensor Notation (Basics)](https://www.continuummechanics.org/tensornotationbasic.htmlv)   
+
 [Tensorphobia and the Outer Product](https://www.jeremykun.com/2016/03/28/tensorphobia-outer-product/)  
+
 [The Tensor Product, Demystified](https://www.math3ma.com/blog/the-tensor-product-demystified)   
+
 [Tensor products of vectors \- IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/multiple-systems/classical-information#tensor-products-of-vectors) 
 
-[Tensor Products  \- Playlist \- by Mu Prime Math](https://www.youtube.com/playlist?list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk)   
+[Tensor Products  \- Playlist \- by Mu Prime Math](https://www.youtube.com/playlist?list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk)  
+
 [A Concrete Introduction to Tensor Products  Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74) 
 
 [What exactly are tensors? | Tensor algebra episode 5 \- All Angels](https://www.youtube.com/watch?v=9MuPfO3vrpw) 
@@ -97,6 +102,7 @@
 # Bilinear Forms and the Metrics Tensor + Quadratic Forms + The Tensor Product
 
 [Tensors for Beginners 10: Bilinear Forms eigenchris](https://youtu.be/jLiBCaBEB3o?si=GPLrBFcSxxOWgzHQ)  
+
 [Lecture 56. Bilinear and Quadratic Forms Yuly Billig](https://www.youtube.com/watch?v=zp31W5NEhxY)   
 
 [Tensors for Beginners 11: Linear maps are Vector-Covector Pairs](https://www.youtube.com/watch?v=YK2zVcWpROA&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=14)  
@@ -106,6 +112,41 @@
 [Tensors for Beginners 13: Tensor Product vs Kronecker Product eigenchris](https://www.youtube.com/watch?v=qp_zg_TD0qE&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=15)   
 
 [Tensors for Beginners 14: Tensors are general vector/covector combinations eigenchris](https://www.youtube.com/watch?v=9R4vhqvE_jw&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=16)  
+
+---
+
+# Tensor Equations
+
+[Video 24 - Dot Product Invariant Tensor Calculus](https://www.youtube.com/watch?v=yf_Ya8X6Tso)  
+
+---
+
+[Video 23 - Tensor Equations Tensor Calculus](https://www.youtube.com/watch?v=DQXcLaHJTVI&t=1307s)   
+
+- Each free index must appear exactly once in the same position (upper or lower) in each term.
+ - Dummy indexes must be uniquely paired (upper and lower) within each term.
+
+- Each side of the equation must be a known tensor.
+
+## Valid operations for tensor equations:
+
+1. Reorder terms on either side of the expression.
+
+2. Reorder factors within any term.
+
+3. Rename any free index to a unique value.
+
+4. Rename any pair of dummy indexes as long as the new value remains unique within the term.
+
+5. Add, subtract or substitute equal tensor terms as long as the free index structure is consistent.
+
+6. Multiply the expression by any scalar, tensor or tensor product as long as no upper or lower index is duplicated, and all dummy indexes are unique throughout the expression.
+
+7. Cancel common nonzero factors of outer products, or common arbitrary factors of inner products.
+
+8. Raise or lower any free index or flip any pair of dummy indexes.
+
+9. Contract any upper index with any lower index.
 
 ---
 
