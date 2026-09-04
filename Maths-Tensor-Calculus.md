@@ -1130,3 +1130,7 @@ and operations are performed component-wise.
 The space is equipped with a positive-defined inner product (like the dot product), which defines lengths (norms) and angles. 
 
 ---
+
+[How to learn Tensor | Tensor calculus for General Relativity | Tensor analysis for physics Physics for Students- Unleash your power!!](https://www.youtube.com/watch?v=UFHUsEtxsOg)    
+
+---
