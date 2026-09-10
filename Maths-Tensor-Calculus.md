@@ -117,12 +117,10 @@
 
 # Tensor Equations
 
+[Video 27 - Transformation of Partial Derivatives Tensor Calculus](https://www.youtube.com/watch?v=GhqA_m_AC-A)  
 [Video 26 - Vector Operation Examples Tensor Calculus](https://www.youtube.com/watch?v=rfdkhq80p_4&t=315s)  
 [Video 25 - Dot Product Examples](https://youtu.be/lU_EStYorXI?si=xeGlcCgytLt1XL-6)  
 [Video 24 - Dot Product Invariant Tensor Calculus](https://www.youtube.com/watch?v=yf_Ya8X6Tso)  
-
----https://www.youtube.com/watch?v=lU_EStYorXI
-
 [Video 23 - Tensor Equations Tensor Calculus](https://www.youtube.com/watch?v=DQXcLaHJTVI&t=1307s)   
 
 - Each free index must appear exactly once in the same position (upper or lower) in each term.
