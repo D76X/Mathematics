@@ -51,7 +51,14 @@
 
 [01\. A Concrete Introduction to Tensor Products \- Mu Prime Math](https://www.youtube.com/watch?v=KnSZBjnd_74&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=2)    
 
+---
+
+## The Universal Property of Tensors
+
 [02\. Complete Derivation: Universal Property of the TP  \- Mu Prime Math](https://www.youtube.com/watch?v=vZzZhdLC_YQ)  
+[The Universal Property That Makes Tensor Products Make Sense math_is_fun](https://www.youtube.com/watch?v=PMWw5gD32hc)  
+
+---
 
 [03\. Tensor Product Basis With the Universal Property  Mu Prime Math](https://www.youtube.com/watch?v=5i8tp0rD2EA&list=PLug5ZIRrShJHCtzgzZyRqSdzr8wYlN2qk&index=3)   
 
@@ -380,6 +387,8 @@ The following concept are also required:
 - parametrization
 
 [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
+> which should provide additional info:
+[Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&t=513s)  
 
 [Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s)
 
