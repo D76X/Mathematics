@@ -297,7 +297,13 @@ and that of its representetion, that is the vector components.
 
 ---
 
+# Forward and Backward transformations and the Jacobian
+
 [Tensors for Beginners 1: Forward and Backward Transformations (REMAKE) eigenchris](https://www.youtube.com/watch?v=bpuE_XmWQ8Y&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=3)  
+
+This video should be considered a prerequisite for the following:
+
+[Tensor Calculus 3: The Jacobian eigenchris](https://www.youtube.com/watch?v=OMCguyCnTQk&t=2s)
 
 ---
 
@@ -387,18 +393,16 @@ The following concept are also required:
 - parametrization
 
 [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=9)  
+
 > which should provide additional info:
+
 [Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&t=513s)  
 
 [Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s)
 
 [Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=264s)
 
-This video uses the concept of dot product and its connection to the definition of the metric tensor
-to determine a procedure that allows, given a vector chosen in the vector space V, to determine a 
-covector in the dual space V* [the vector space of the linear applications L: V -> R ] so that when 
-in the space V a covariant basis {ej} is chosen, the corresponding set of covectors {e^j} is ALSO a 
-basis in V*.
+This video uses the concept of dot product and its connection to the definition of the metric tensor to determine a procedure that allows, given a vector chosen in the vector space V, to determine a covector in the dual space V* [the vector space of the linear applications L: V -> R ] so that when in the space V a covariant basis {ej} is chosen, the corresponding set of covectors {e^j} is ALSO a basis in V*.
 
 However, it also shows that there exist more than one possible of such correspondance {ej} <--> {e^j},
 but one of these, based on the dotproduct and the metric tensor, holds the special property of making
