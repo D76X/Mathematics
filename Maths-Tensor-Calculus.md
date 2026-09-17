@@ -305,6 +305,16 @@ This video should be considered a prerequisite for the following:
 
 [Tensor Calculus 3: The Jacobian eigenchris](https://www.youtube.com/watch?v=OMCguyCnTQk&t=2s)
 
+## Important Points
+
+- Basis Vectors can be always expressed as partial derivatives  
+
+In any coordinate system, the basis vectors can always be expressed 
+as partial derivatives. This is an idea that it might take some time
+to get used to.
+
+
+
 ---
 
 [Tensors for Beginners 0: Tensor Definition eigenchris](https://www.youtube.com/watch?v=TvxmkZmBa-k&t=9s)  
