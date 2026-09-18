@@ -307,11 +307,22 @@ This video should be considered a prerequisite for the following:
 
 ## Important Points
 
-- Basis Vectors can be always expressed as partial derivatives  
+- Basis Vectors can be always expressed as partial derivatives of vectors  
 
 In any coordinate system, the basis vectors can always be expressed 
 as partial derivatives. This is an idea that it might take some time
-to get used to.
+to get used to. 
+
+This result is shown in the following videos:
+
+[Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&index=3)
+
+[Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
+
+It is shown that using any vector R the partial derivatives of the vector 
+with respect the coordinate of the coordinate system are basis vectors 
+of the chosen coordinate system, with a scale factor that may depend on
+the choice of the vector R. 
 
 
 
@@ -1015,27 +1026,27 @@ The components of vectors are not the only contravariant objects of a vector spa
 ---
 
 
-## [10 - Covariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=7Vr4MWm8ysA)    
+## [Video 10 - Covariant Basis Examples Tensor Calculus](https://www.youtube.com/watch?v=7Vr4MWm8ysA)    
 
 ---
 
-## [09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug)    
+## [Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug)    
 
 ---
 
-## [08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
+## [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
 
 ---
 
-## [07 - Transformation Examples Tensor Calculus](https://www.youtube.com/watch?v=2k5LTNVTMMw)  
+## [Video 07 - Transformation Examples Tensor Calculus](https://www.youtube.com/watch?v=2k5LTNVTMMw)  
 
 ---
 
-## [06 - Coordinate Transformations Tensor Calculus](https://www.youtube.com/watch?v=XtApAj4Srcw)  
+## [Video 06 - Coordinate Transformations Tensor Calculus](https://www.youtube.com/watch?v=XtApAj4Srcw)  
 
 ---
 
-## [05 - Curvilinear Coordinates Tensor Calculus](https://www.youtube.com/watch?v=RY8uG2bkF-Y&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=5)  
+## [Video 05 - Curvilinear Coordinates Tensor Calculus](https://www.youtube.com/watch?v=RY8uG2bkF-Y&list=PLXPyU0M9IEAYjeXYKNFYL8vPjRDCUAJo9&index=5)  
 
 ---
 
