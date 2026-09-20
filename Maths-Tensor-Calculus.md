@@ -310,7 +310,7 @@ This video should be considered a prerequisite for the following:
 - Basis Vectors can be always expressed as partial derivatives of vectors  
 
 In any coordinate system, the basis vectors can always be expressed 
-as partial derivatives. This is an idea that it might take some time
+as partial derivatives. This is an idea that might take some time
 to get used to. 
 
 This result is shown in the following videos:
@@ -318,11 +318,13 @@ This result is shown in the following videos:
 [Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&index=3)
 
 [Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
+[Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s)
 
 It is shown that using any vector R the partial derivatives of the vector 
 with respect the coordinate of the coordinate system are basis vectors 
 of the chosen coordinate system, with a scale factor that may depend on
-the choice of the vector R. 
+the choice of the vector R. This means also tha there is a universal way
+to express any vector, in any coordinate system
 
 
 
