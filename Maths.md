@@ -86,7 +86,9 @@
 
 # Quaternions
 
-[How to Use Quaternions  Positive Altitude](https://www.youtube.com/watch?v=bKd2lPjl92c) 
+[How to Use Quaternions  Positive Altitude](https://www.youtube.com/watch?v=bKd2lPjl92c)  
+
+[Hamiltons geniale Idee der vierdimensionalen Zahlen Entwurzler](https://www.youtube.com/watch?v=bstajZ6UUHQ)   
 
 ---
 
