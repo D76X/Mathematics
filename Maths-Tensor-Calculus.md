@@ -305,17 +305,24 @@ This video should be considered a prerequisite for the following:
 
 [Tensor Calculus 3: The Jacobian eigenchris](https://www.youtube.com/watch?v=OMCguyCnTQk&t=2s)
 
-## Important Points
-
-- Basis Vectors can be always expressed as partial derivatives of vectors  
-
-In any coordinate system, the basis vectors can always be expressed 
-as partial derivatives. This is an idea that might take some time
-to get used to. 
+## Basis Vectors can be always expressed as partial derivatives of vectors  
 
 This result is shown in the following videos:
-
 [Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&index=3)
+
+In any coordinate system, the basis vectors can always be expressed as partial derivatives. 
+This is an idea that might take some time to get used to, but it is not difficult to agree
+with this conclusion in the same way it shown in the video.
+
+In practice, one may ask the following question. Given a vector R and a coordinate system
+for the corresponding vector space, how much does the vector R change, that is how much is 
+D_sub_xi(R) for a ubit change of the coordinate x_sub_i.
+
+The important fact about this derivation is that D_sub_xi(R) is a vector.
+Therefore in a finite n-dimentional space we can always define - vectors for each R vectors
+of known coordinates [x1,..,xn].
+
+[D_sub_x1(R),..,D_sub_xn(R)]
 
 ---
 
