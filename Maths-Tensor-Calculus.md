@@ -175,14 +175,15 @@
 ---
 
 There is also another way to see what the metric tensor is, as shown in the following video.
-[Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=284s)  
 
+[Tensors for Beginners 16: Raising/Lowering Indexes (with motivation, sharp + flat operators) eigenchris](https://www.youtube.com/watch?v=_z9R7OMpxhY&t=284s)  
 
 ---
 
 #  Linear Maps 
 
 [Tensors for Beginners 7: Linear Maps eigenchris](https://youtu.be/dtvM-CzNe50?si=UXpv66sLTe_8PyUp)  
+
 [Tensors for Beginners 8: Linear Maps Transformation Ruleseigenchris](https://youtu.be/SSSGA6ohkfw?si=yen1mU0Un82dJQme)  
 
 ---
@@ -242,7 +243,6 @@ Let V_sup'_i  be thLet V'_sup_i' be thVe components with respect to the basis ve
 Let V'_sup_i' be th
 he forward transoratio
 
-
 n changes the vectors of the basis Z into the vectors of the
  basis Z':
 Z' = FZ = JZ
@@ -297,6 +297,42 @@ and that of its representetion, that is the vector components.
 
 ---
 
+## Basis Vectors can be always expressed as partial derivatives of vectors  
+
+> The following two go together:
+
+[Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s) 
+
+[Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
+
+[Tensor Calculus 5: Derivative Transformation Rules (Contravariance) eigenchris](https://www.youtube.com/watch?v=zKuyaQ4JRs8&t=311s)  
+
+[Tensor Calculus 4: Derivatives are Vectors eigenchris](https://www.youtube.com/watch?v=9yOb9gHnLUk&t=80s)
+
+This result is shown in the following videos:
+[Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&index=3)
+
+It is shown that using any vector R the partial derivatives of the vector 
+with respect the coordinate of the coordinate system are basis vectors 
+of the chosen coordinate system, with a scale factor that may depend on
+the choice of the vector R. This means also tha there is a universal way
+to express any vector, in any coordinate system.
+
+In any coordinate system, the basis vectors can always be expressed as partial derivatives. This is an idea that might take some time to get used to, but it 
+is not difficult to agree with this conclusion in the same way it shown in the 
+video.
+
+In practice, one may ask the following question. Given a vector R and a coordinate system for the corresponding vector space, how much does the vector R changes, 
+that is how much is `D_sub_xi(R)` for a unit change of the coordinate `x_sub_i`.
+
+The important fact about this derivation is that `D_sub_xi(R)` is a vector.
+Therefore in a finite n-dimentional space we can always define - vectors for 
+each R vectorsof known coordinates [x1,..,xn].
+
+[D_sub_x1(R),..,D_sub_xn(R)]
+
+---
+
 # Forward and Backward transformations and the Jacobian
 
 [Tensors for Beginners 1: Forward and Backward Transformations (REMAKE) eigenchris](https://www.youtube.com/watch?v=bpuE_XmWQ8Y&list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&index=3)  
@@ -304,47 +340,6 @@ and that of its representetion, that is the vector components.
 This video should be considered a prerequisite for the following:
 
 [Tensor Calculus 3: The Jacobian eigenchris](https://www.youtube.com/watch?v=OMCguyCnTQk&t=2s)
-
-## Basis Vectors can be always expressed as partial derivatives of vectors  
-
-This result is shown in the following videos:
-[Tensor Calculus 2: Cartesian/Polar Coordinates, and Basis Vectors eigenchris](https://www.youtube.com/watch?v=rr5qEb_kT6c&list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&index=3)
-
-In any coordinate system, the basis vectors can always be expressed as partial derivatives. 
-This is an idea that might take some time to get used to, but it is not difficult to agree
-with this conclusion in the same way it shown in the video.
-
-In practice, one may ask the following question. Given a vector R and a coordinate system
-for the corresponding vector space, how much does the vector R change, that is how much is 
-D_sub_xi(R) for a ubit change of the coordinate x_sub_i.
-
-The important fact about this derivation is that D_sub_xi(R) is a vector.
-Therefore in a finite n-dimentional space we can always define - vectors for each R vectors
-of known coordinates [x1,..,xn].
-
-[D_sub_x1(R),..,D_sub_xn(R)]
-
----
-
-> The following two go together:
-
-[Video 08 - Vector Differentiation Tensor Calculus](https://www.youtube.com/watch?v=_K6Mhhplwmo)  
-
----
-
-> The following two go together:
-
-[Video 09 - Covariant Basis Tensor Calculus](https://www.youtube.com/watch?v=j_s1_M8Qtug&t=624s) 
-
-[Tensor Calculus 4: Derivatives are Vectors eigenchris](https://www.youtube.com/watch?v=9yOb9gHnLUk&t=80s)
-
----
-
-It is shown that using any vector R the partial derivatives of the vector 
-with respect the coordinate of the coordinate system are basis vectors 
-of the chosen coordinate system, with a scale factor that may depend on
-the choice of the vector R. This means also tha there is a universal way
-to express any vector, in any coordinate system
 
 ---
 
