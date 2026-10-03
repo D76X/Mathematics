@@ -307,6 +307,8 @@ and that of its representetion, that is the vector components.
 
 [Tensor Calculus 5: Derivative Transformation Rules (Contravariance) eigenchris](https://www.youtube.com/watch?v=zKuyaQ4JRs8&t=311s)  
 
+[Tensor Calculus 5.1: Derivative Operators are Vectors Discussion eigenchris](https://www.youtube.com/watch?v=VHkL5HpL0HY)  
+
 [Tensor Calculus 4: Derivatives are Vectors eigenchris](https://www.youtube.com/watch?v=9yOb9gHnLUk&t=80s)
 
 This result is shown in the following videos:
