@@ -188,7 +188,7 @@ There is also another way to see what the metric tensor is, as shown in the foll
 
 ---
 
-# Covectors
+# Covectors and the Dual Space of a Vector Space
 
 [Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
 
@@ -294,6 +294,19 @@ and that of its representetion, that is the vector components.
 
 - vectors are tensors of rank-1 and therefore invariant geometrical objects
 - any vector components with respect of a chosen basis is a set of numbers, that may be collected as a column; this is not invariant
+
+---
+
+# Differential Forms
+
+[Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
+
+You first need to refresh the concept of co-vector and the fact that given a vector space,
+it is always possible to define a Dual Vector Space, which is the space of the co-vectors.
+The Dual Space V* is, in practice, the vector space of all linear functions from the vector 
+space V to the field K.
+
+[Tensor Calculus 6: Differential Forms are Covectors eigenchris](https://www.youtube.com/watch?v=XGL-vpk-8dU&t=31s)   
 
 ---
 
