@@ -90,6 +90,8 @@
 
 [Hamiltons geniale Idee der vierdimensionalen Zahlen Entwurzler](https://www.youtube.com/watch?v=bstajZ6UUHQ)   
 
+[The Vectors Before Vectors Derivativeofx](https://www.youtube.com/watch?v=Q3Xbp4WtAn0&t=1s)  
+
 ---
 
 ## Quotient Spaces
