@@ -56,6 +56,7 @@
 ## The Universal Property of Tensors
 
 [02\. Complete Derivation: Universal Property of the TP  \- Mu Prime Math](https://www.youtube.com/watch?v=vZzZhdLC_YQ)  
+
 [The Universal Property That Makes Tensor Products Make Sense math_is_fun](https://www.youtube.com/watch?v=PMWw5gD32hc)  
 
 ---
@@ -195,6 +196,14 @@ There is also another way to see what the metric tensor is, as shown in the foll
 [Tensors for Beginners 5: Covector Components eigenchris](https://www.youtube.com/watch?v=rG2q77qunSw&t=10s)   
 
 [Tensors for Beginners 6: Covector Transformation Rules eigenchris](https://www.youtube.com/watch?v=d5da-mcVJ20)  
+
+- covectors are linear maps from a vector space V to the field K of the vector space
+
+- covectors form a vector space V*(K) named the dual OF V(K) together with the Dot Product (Scalar Product) and the natural addition operation 
+
+- covectors being vectors of a vectore space are invariants as vectors are, therefore they are tensors!
+
+- as for all vectors, while they themselves are invariats their components with respect any basis are NOT invariants!
 
 ---
 
@@ -443,7 +452,7 @@ The following concept are also required:
 This video uses the concept of dot product and its connection to the definition of the metric tensor to determine a procedure that allows, given a vector chosen in the vector space V, to determine a covector in the dual space V* [the vector space of the linear applications L: V -> R ] so that when in the space V a covariant basis {ej} is chosen, the corresponding set of covectors {e^j} is ALSO a basis in V*.
 
 However, it also shows that there exist more than one possible of such correspondance {ej} <--> {e^j},
-but one of these, based on the dotproduct and the metric tensor, holds the special property of making
+but one of these, based on the dot product and the metric tensor, holds the special property of making
 it easy to determine the ...
 
 ---
@@ -1183,5 +1192,36 @@ The space is equipped with a positive-defined inner product (like the dot produc
 ---
 
 [How to learn Tensor | Tensor calculus for General Relativity | Tensor analysis for physics Physics for Students- Unleash your power!!](https://www.youtube.com/watch?v=UFHUsEtxsOg)    
+
+---
+
+# The Scalar Product
+
+[Linear Algebra: Dot and inner product | by Dilip Kumar | Medium](https://dilipkumar.medium.com/linear-algebra-dot-and-inner-product-5989c3bf824c)
+
+[Dot Product In Physics: What Is The Physical Meaning of It ...](https://profoundphysics.com/dot-product-in-physics-what-is-the-physical-meaning-of-it/)
+
+[Linear Algebra: Dot and inner product | by Dilip Kumar | Medium](https://dilipkumar.medium.com/linear-algebra-dot-and-inner-product-5989c3bf824c)
+
+[Vector Calculus: Understanding the Dot Product – BetterExplained](https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/)
+
+[Dot Product In Physics: What Is The Physical Meaning of It ...](https://profoundphysics.com/dot-product-in-physics-what-is-the-physical-meaning-of-it/)
+
+The dot product is commonly known by these alternative names in vector spaces and linear algebra:
+
+* Scalar product: The most common alternative name, used because the operation takes two vectors and returns a scalar (a single number) rather than a vector.
+
+* Inner product: A broader, abstract generalization of the dot product that applies to general real or complex vector spaces (such as function spaces).
+
+* Euclidean inner product: A specific term used when referring to the standard dot product in Euclidean space ($\mathbb{R}^n$).
+
+* Euclidean scalar product: Another precise name for the standard dot product in Euclidean geometry and coordinate spaces. [1, 2, 3, 4, 5, 6] 
+
+[1] [https://en.wikipedia.org](https://en.wikipedia.org/wiki/Dot_product)
+[2] [https://simple.wikipedia.org](https://simple.wikipedia.org/wiki/Dot_product)
+[3] [https://www.youtube.com](https://www.youtube.com/watch?v=WC9YW1ya31o&t=5)
+[4] [https://mathworld.wolfram.com](https://mathworld.wolfram.com/InnerProduct.html)
+[5] [https://en.wikipedia.org](https://en.wikipedia.org/wiki/Inner_product_space)
+[6] [https://courses.math.wichita.edu](https://courses.math.wichita.edu/math344/ch12/3/DotProduct.html)
 
 ---
