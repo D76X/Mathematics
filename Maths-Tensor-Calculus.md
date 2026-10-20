@@ -317,6 +317,8 @@ space V to the field K.
 
 [Tensor Calculus 6: Differential Forms are Covectors eigenchris](https://www.youtube.com/watch?v=XGL-vpk-8dU&t=31s)   
 
+[Tensor Calculus 7: Covector Field Components eigenchris](https://www.youtube.com/watch?v=r_20yXBdhJk)   
+
 ---
 
 ## Basis Vectors can be always expressed as partial derivatives of vectors  
