@@ -315,7 +315,11 @@ it is always possible to define a Dual Vector Space, which is the space of the c
 The Dual Space V* is, in practice, the vector space of all linear functions from the vector 
 space V to the field K.
 
-[Tensor Calculus 6: Differential Forms are Covectors eigenchris](https://www.youtube.com/watch?v=XGL-vpk-8dU&t=31s)   
+[Tensor Calculus 6: Differential Forms are Covectors eigenchris](https://www.youtube.com/watch?v=XGL-vpk-8dU&t=31s)
+
+In this video the geometrical meaning of the differential form df is presented.
+The conclusion is that given a scalar field f of a vector space V df is a co-vector 
+field over the same vector space V, therefore 
 
 [Tensor Calculus 7: Covector Field Components eigenchris](https://www.youtube.com/watch?v=r_20yXBdhJk)   
 
