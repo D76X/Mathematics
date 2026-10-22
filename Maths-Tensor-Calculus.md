@@ -126,12 +126,17 @@
 # Tensor Equations
 
 [Video 27 - Transformation of Partial Derivatives Tensor Calculus](https://www.youtube.com/watch?v=GhqA_m_AC-A)  
+
 [Video 26 - Vector Operation Examples Tensor Calculus](https://www.youtube.com/watch?v=rfdkhq80p_4&t=315s)  
+
 [Video 25 - Dot Product Examples](https://youtu.be/lU_EStYorXI?si=xeGlcCgytLt1XL-6)  
+
 [Video 24 - Dot Product Invariant Tensor Calculus](https://www.youtube.com/watch?v=yf_Ya8X6Tso)  
+
 [Video 23 - Tensor Equations Tensor Calculus](https://www.youtube.com/watch?v=DQXcLaHJTVI&t=1307s)   
 
 - Each free index must appear exactly once in the same position (upper or lower) in each term.
+
  - Dummy indexes must be uniquely paired (upper and lower) within each term.
 
 - Each side of the equation must be a known tensor.
@@ -159,6 +164,18 @@
 ---
 
 # Raising and lowering tensor indexes
+
+[Video 20 - Tensor Algebra Tensor Calculus](https://www.youtube.com/watch?v=Q4-zqfX9vpo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=21)  
+
+- definition of equality of tensors; the simplest tensor equation
+
+- two tensors can only be equal if and only if they have the same index structure and all their components are equal for any choice of the indexes
+
+- it is **NOT** necessary for the indexes to appear in the same order!
+
+- definition of the outer and inner products of tessors
+
+[Video 21 - Contraction Tensor Calculus](https://www.youtube.com/watch?v=kTpQZcekFmE&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=22)  
 
 [Video 22 - Raising & Lowering Indexes - Tensor Calculus](https://www.youtube.com/watch?v=SZHR_il0k7M&t=664s)
 
