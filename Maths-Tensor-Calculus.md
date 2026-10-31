@@ -168,12 +168,11 @@
 [Video 20 - Tensor Algebra Tensor Calculus](https://www.youtube.com/watch?v=Q4-zqfX9vpo&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=21)  
 
 - definition of equality of tensors; the simplest tensor equation
-
 - two tensors can only be equal if and only if they have the same index structure and all their components are equal for any choice of the indexes
-
 - it is **NOT** necessary for the indexes to appear in the same order!
-
-- definition of the outer and inner products of tessors
+- definition of the outer and inner products of tensors
+- the outer product between two tensors A and B is the tensor that is obtained by multiplying each of the components of the tensor A by each of the components of the tensor B
+- the inner product between two tensors A and B..
 
 [Video 21 - Contraction Tensor Calculus](https://www.youtube.com/watch?v=kTpQZcekFmE&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=22)  
 
@@ -338,7 +337,9 @@ In this video the geometrical meaning of the differential form df is presented.
 The conclusion is that given a scalar field f of a vector space V df is a co-vector 
 field over the same vector space V, therefore 
 
-[Tensor Calculus 7: Covector Field Components eigenchris](https://www.youtube.com/watch?v=r_20yXBdhJk)   
+[Tensor Calculus 7: Covector Field Components eigenchris](https://www.youtube.com/watch?v=r_20yXBdhJk)    
+
+[Tensor Calculus 9: Integration with Differential Forms eigenchris](https://www.youtube.com/watch?v=kyzSofggsqg)  
 
 ---
 
