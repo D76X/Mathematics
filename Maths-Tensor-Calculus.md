@@ -170,8 +170,25 @@
 - definition of equality of tensors; the simplest tensor equation
 - two tensors can only be equal if and only if they have the same index structure and all their components are equal for any choice of the indexes
 - it is **NOT** necessary for the indexes to appear in the same order!
+
 - definition of the outer and inner products of tensors
 - the outer product between two tensors A and B is the tensor that is obtained by multiplying each of the components of the tensor A by each of the components of the tensor B
+- in an outer product fo tensor A and B none of the indexes can be repeated neither at the top nor at the bottom
+- as it is evident from the following examples the outer product pf tensors produces a new tensor with a rank that is the sum of the ranks of the factor tensors
+
+## Examples of outer products:
+
+> memoic of the index notation:
+P^j,i = P_sup_j_sub_i
+
+> Example 1:
+P^j,i * Q^t,s = R^jt,is = R_sup_jt_sub_is = R_sup_j,t_sub_i,s 
+P^j,i * Q^rs,k = R^jrs,ik = R_sup_jrs_sub_ik 
+
+> Example 2:
+P^j,i * Q^k,rs = R^jk,irs = R_sup_jk_sub_irs 
+
+
 - the inner product between two tensors A and B..
 
 [Video 21 - Contraction Tensor Calculus](https://www.youtube.com/watch?v=kTpQZcekFmE&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=22)  
