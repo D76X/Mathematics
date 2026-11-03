@@ -171,6 +171,8 @@
 - two tensors can only be equal if and only if they have the same index structure and all their components are equal for any choice of the indexes
 - it is **NOT** necessary for the indexes to appear in the same order!
 
+##  The Outer Product
+
 - definition of the outer and inner products of tensors
 - the outer product between two tensors A and B is the tensor that is obtained by multiplying each of the components of the tensor A by each of the components of the tensor B
 - in an outer product fo tensor A and B none of the indexes can be repeated neither at the top nor at the bottom
@@ -188,8 +190,21 @@ P^j,i * Q^rs,k = R^jrs,ik = R_sup_jrs_sub_ik
 > Example 2:
 P^j,i * Q^k,rs = R^jk,irs = R_sup_jk_sub_irs 
 
+---
+
+##  The Tensor Decomposition Theorem
+
+This theorem states that any tensor can be decoposed in a sum of **vector products**.
+
+The first important definition that must be given in order to understand this theorem is what a **vector products** actually is.
+
+---
+
+##  The Inner Product
 
 - the inner product between two tensors A and B..
+
+---
 
 [Video 21 - Contraction Tensor Calculus](https://www.youtube.com/watch?v=kTpQZcekFmE&list=PLXPyU0M9IEAbIYz6O5v3IynmnNlY-uraS&index=22)  
 
@@ -1277,5 +1292,59 @@ The dot product is commonly known by these alternative names in vector spaces an
 [4] [https://mathworld.wolfram.com](https://mathworld.wolfram.com/InnerProduct.html)
 [5] [https://en.wikipedia.org](https://en.wikipedia.org/wiki/Inner_product_space)
 [6] [https://courses.math.wichita.edu](https://courses.math.wichita.edu/math344/ch12/3/DotProduct.html)
+
+---
+
+# What is a vector product in the context of tensors?
+
+In the context of tensor algebra and analysis, the term **"vector product"** typically refers to one of three distinct operations depending on whether you are constructing higher-rank tensors, analyzing geometric orientations, or expressing traditional vector calculus in index notation.
+
+---
+
+### 1. The Tensor Product (Outer Product / Dyadic Product)
+
+In rigorous tensor theory, the primary way to "multiply" two vectors is via the **tensor product** (or **outer product**). If you take two vectors from a vector space $V$, their outer product yields a second-order tensor.
+
+* **Definition:** Given two vectors $\mathbf{u}, \mathbf{v} \in V$, their tensor product is denoted by $\mathbf{u} \otimes \mathbf{v}$.
+* **Component Form:** In a chosen coordinate basis, if $\mathbf{u}$ has components $u^i$ and $\mathbf{v}$ has components $v^j$, the components of the resulting second-order tensor $T$ are given by the direct product of their components:
+
+$$T^{ij} = u^i v^j$$
+
+
+* **Rank Elevation:** While vectors are tensors of rank 1, the outer product of two vectors produces a tensor of **rank 2** (a linear map from $V^* \to V$). This process can be extended indefinitely to construct tensors of any arbitrary rank ($r+s$).
+* **Properties:** The outer product is bilinear and **non-commutative** ($\mathbf{u} \otimes \mathbf{v} \neq \mathbf{v} \otimes \mathbf{u}$ unless the vectors are linearly dependent or one is zero).
+
+---
+
+### 2. The Exterior Product (Wedge Product)
+
+When dealing with alternating multilinear forms and differential geometry, vectors are often combined using the **exterior product** (or wedge product), which restricts the tensor product to anti-symmetric subspaces.
+
+* **Definition:** The wedge product of two vectors $\mathbf{u}$ and $\mathbf{v}$ is defined as the anti-symmetrized tensor product:
+
+$$\mathbf{u} \wedge \mathbf{v} = \mathbf{u} \otimes \mathbf{v} - \mathbf{v} \otimes \mathbf{u}$$
+
+
+* **Component Form:** In components:
+
+$$A^{ij} = u^i v^j - u^j v^i$$
+
+
+* **Geometric Meaning:** This operation produces a **bivector** (an antisymmetric 2-tensor) representing an oriented plane segment spanned by the two vectors, rather than a general linear transformation.
+
+---
+
+### 3. The Cross Product in Tensor Notation (Levi-Civita Representation)
+
+In 3D Euclidean space, the traditional cross product $\mathbf{u} \times \mathbf{v}$ is not a true tensor product in the general $n$-dimensional sense, but it can be rigorously formulated using the **Levi-Civita symbol** (the permutation tensor $\varepsilon_{ijk}$).
+
+* **Component Form:**
+
+$$(\mathbf{u} \times \mathbf{v})_i = \varepsilon_{ijk} u^j v^k$$
+
+
+
+where $\varepsilon_{ijk}$ is the completely antisymmetric symbol taking values $+1$, $-1$, or $0$.
+* **Tensor Nature:** Because the cross product depends on the orientation of the coordinate system (the handedness of the frame), it actually yields an **axial vector** (or pseudovector) rather than a true polar vector. Under a parity inversion (spatial reflection), an axial vector retains its sign, which is reflected mathematically by how pseudotensors transform under coordinate transformations.
 
 ---
