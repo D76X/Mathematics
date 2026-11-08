@@ -196,7 +196,8 @@ P^j,i * Q^k,rs = R^jk,irs = R_sup_jk_sub_irs
 
 This theorem states that any tensor can be decoposed in a sum of **vector products**.
 
-The first important definition that must be given in order to understand this theorem is what a **vector products** actually is.
+The first important definition that must be given in order to understand this theorem 
+is what a **vector products** actually is.
 
 ---
 
