@@ -158,4 +158,42 @@ It is important to notice the following.
 
 3. there is a multiplication algorithm between a row vector and a column vector that is used to build a matrix 
 
+Let's focus on a specific example, to better understand this new product between a row vector and a column vector.
+
+$$
+\begin{bmatrix}
+5 & 6 & 2 
+\end{bmatrix}
+\begin{bmatrix}
+1  \\
+0  \\
+0 
+\end{bmatrix}
+=
+\begin{bmatrix}
+5 & 0 & 0 \\
+6 & 0 & 0 \\
+2 & 0 & 0
+\end{bmatrix}
+$$
+
+The obvious generalization would be the following.
+
+$$
+\begin{bmatrix}
+a1 & a2 & a3 
+\end{bmatrix}
+\begin{bmatrix}
+b1  \\
+b2  \\
+b3 
+\end{bmatrix}
+=
+\begin{bmatrix}
+a1b1 & a1b2 & a1b3 \\
+a2b1 & a2b2 & a2b3 \\
+a3b1 & a3b2 & a3b3
+\end{bmatrix}
+$$
+
 ---
