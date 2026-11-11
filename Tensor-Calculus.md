@@ -355,7 +355,7 @@ and that of its representetion, that is the vector components.
 
 ---
 
-# Differential Forms
+# Differential Forms and Covectors
 
 [Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
 
@@ -373,6 +373,8 @@ field over the same vector space V, therefore
 [Tensor Calculus 7: Covector Field Components eigenchris](https://www.youtube.com/watch?v=r_20yXBdhJk)    
 
 [Tensor Calculus 9: Integration with Differential Forms eigenchris](https://www.youtube.com/watch?v=kyzSofggsqg)  
+
+[Covectors: The Other Half of a Vector | Mathematics of General Relativity, Ep. 2 Mr. Mathematik and Mr. Physik](https://www.youtube.com/watch?v=9NanKNflhYk&t=22s)   
 
 ---
 
