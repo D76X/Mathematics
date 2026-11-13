@@ -240,6 +240,10 @@ There is also another way to see what the metric tensor is, as shown in the foll
 
 # Covectors and the Dual Space of a Vector Space
 
+[What is a Vector, Really? | Mathematics of General Relativity, Ep. 1 Mr. Mathematik and Mr. Physik](https://www.youtube.com/watch?v=LI8Nrvtr4f0&list=PLfp2ReU22_Rs&index=3)  
+
+[Covectors: The Other Half of a Vector | Mathematics of General Relativity, Ep. 2 Mr. Mathematik and Mr. Physik](https://www.youtube.com/watch?v=9NanKNflhYk&t=496s)  
+
 [Tensors for Beginners 4: What are Covectors? eigenchris](https://www.youtube.com/watch?v=LNoQ_Q5JQMY)  
 
 [Tensors for Beginners 5: Covector Components eigenchris](https://www.youtube.com/watch?v=rG2q77qunSw&t=10s)   
