@@ -11,4 +11,6 @@
 
 [Why Linear Quadratic Regulators Work So Well The Synthetic Mind](https://www.youtube.com/watch?v=fLQQ4mT0KIU&t=1s)  
 
+[The Laplace Transform Visually Explained The Synthetic Mind](https://www.youtube.com/watch?v=W8DxLSKrFLA)   
+
 ---
